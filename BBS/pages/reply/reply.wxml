@@ -1,0 +1,13 @@
+<!--pages/reply/reply.wxml-->
+<view class='ServiceCenter'>
+  <view class="contentView">
+    <view class="textarea_title">回复的内容：</view>
+    <view class="textarea_bg">
+      <textarea bindinput="bindproblem" style="height: 4em" maxlength="-1" />
+
+    </view>
+  </view>
+  <button bindtap="newBtnDown">回复</button>
+  <button bindtap="newBtnDown2">返回</button>
+</view>
+
