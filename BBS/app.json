@@ -1,0 +1,19 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/denglu/denglu",
+    "pages/luntan/luntan",
+    "pages/read/read",
+    "pages/xinjian/xinjian",
+    "pages/reply/reply"
+
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#117711",
+    "navigationBarTitleText": "论坛",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}
