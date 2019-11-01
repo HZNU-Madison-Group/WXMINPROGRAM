@@ -1,0 +1,6 @@
+<!--pages/reply/reply.wxml-->
+<view class="container1">
+<text>problem</text>
+<textarea bindinput="bindproblem"></textarea>
+<button class="button"  bindtap="clickreply">提交回复 </button>
+</view>
