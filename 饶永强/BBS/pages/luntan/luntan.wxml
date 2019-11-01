@@ -1,0 +1,13 @@
+<!--pages/riji/riji.wxml-->
+<!--背景-->
+<view class="container">
+  <view class="login-icon">
+    <image class="login-img" src="../image/loginLog.jpg"></image>
+  </view>
+  <view class="login-from">
+    <button class="loginBtn" type="primary" bindtap="newBtnDown">浏览所有根问题</button>
+    <button class="loginBtn" type="primary" bindtap="newBtnDown2">新建问题</button>
+  </view>
+</view>
+
+

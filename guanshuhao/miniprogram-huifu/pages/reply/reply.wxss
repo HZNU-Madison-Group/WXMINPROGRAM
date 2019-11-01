@@ -1,0 +1,18 @@
+/* pages/reply/reply.wxss */
+.font-break {
+  word-break:break-all;
+}
+
+.btns {
+  margin-top: 0rpx;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.btn1 {
+  width: 20%;
+  margin-top: 0rpx;
+  background-color: rgb(93, 150, 255);
+  color: rgb(255, 240, 37);
+}

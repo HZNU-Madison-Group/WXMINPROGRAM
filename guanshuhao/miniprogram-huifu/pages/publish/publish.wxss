@@ -1,0 +1,23 @@
+/* pages/publish/publish.wxss */
+
+.inputText { 
+
+ flex: block; 
+ float: right; 
+ text-align: left; 
+ margin-right: 0px; 
+ margin-top: 0px; 
+ color: rgb(255, 240, 37); 
+ font-size: 33px
+} 
+
+.font-break {
+  word-break:break-all;
+}
+
+.btn1 {
+  width: 20%;
+  margin-top: 0rpx;
+  background-color: rgb(93, 150, 255);
+  color: rgb(255, 240, 37);
+}
