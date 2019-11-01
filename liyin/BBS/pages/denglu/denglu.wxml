@@ -1,0 +1,15 @@
+<!--pages/denglu/denglu.wxml-->
+
+<view class="page-section">
+  <view class="weui-cells__title">在这里登录</view>
+  <view >username</view>
+  <view>
+    <input style="border:1px solid red" class="weui-input" maxlength="10" bindinput="bindusername" />
+  </view>
+  <view >password</view>
+  <view>
+    <input password="true" style="border:1px solid red"   class="weui-input" maxlength="10" bindinput="bindpassword" />
+  </view>
+<button type="primary"   bindtap="clicklogin" > 登录 </button>
+
+</view>
