@@ -1,0 +1,6 @@
+<!--pages/write/write.wxml-->
+<view class="container1">
+<text>我的问题：</text>
+<textarea bindinput="bindproblem"></textarea>
+<button class="button"  bindtap="clickwrite">发表</button>
+</view>
