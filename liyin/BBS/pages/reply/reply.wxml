@@ -1,0 +1,9 @@
+<!--pages/reply/reply.wxml-->
+<view class="page-section">
+
+  <view>problem:</view>
+  <view>
+    <textarea bindinput="bindproblem" maxlength="1000"></textarea>
+  </view>
+  <button bindtap="clickreply">回复</button>
+</view>
