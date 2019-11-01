@@ -1,0 +1,9 @@
+/* pages/center/center.wxss */
+.page-section{
+  margin-top: 500;
+}
+.weui-cells__title{
+  font-size: 200;
+  text-align: center;
+  color: rgb(0, 174, 255);
+}
