@@ -1,0 +1,19 @@
+<!--pages/forum/forum.wxml-->
+<button bindtap="create" class="button">创建帖子</button>
+<view wx:for="{{browserroot}}" wx:key="x">
+  <text class="xitem">
+  id:{{item.id}}
+  prblem:{{item.problem}}
+  userid:{{item.userid}}
+  createtime:{{item.createtime}}
+  parentid:{{item.parentid}}
+  </text>
+  <button bindtap="read" data-id="{{item.id}}" class="button">查看</button>
+
+  
+</view>
+<view>
+
+
+
+</view>

@@ -1,0 +1,22 @@
+/* pages/reg/reg.wxss */
+.headline {
+  color: #505050;
+}
+
+.box {
+  border-style: solid;
+  color: #505050;
+  background: #f0f0f0
+}
+
+.button {
+  width: 90%;
+  margin-top: 30rpx;
+  color: #505050;
+  
+}
+page{
+  background-color: #f0f0f0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
