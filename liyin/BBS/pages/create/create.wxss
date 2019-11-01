@@ -1,0 +1,4 @@
+/* pages/create/create.wxss */
+.page-section{
+  margin-top: 500
+}

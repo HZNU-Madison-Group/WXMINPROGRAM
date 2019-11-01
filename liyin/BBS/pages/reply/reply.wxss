@@ -1,0 +1,4 @@
+/* pages/reply/reply.wxss */
+.page-section{
+  margin-top: 500
+}
