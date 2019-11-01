@@ -1,0 +1,69 @@
+/* pages/replay/replay.wxss */
+.border{
+  border: 0.5px solid gray;}
+.byrow {
+  display: flex;
+  flex-direction: row;
+}
+
+.xitem1 {
+  display: inline-block;
+  word-break: break-all;
+  width: 90%;
+  margin-left: 20rpx;
+}
+
+.xitem2 {
+  display: inline-block;
+  word-break: break-all;
+  width: 90%;
+  margin-left: 20rpx;
+  font-size: 30rpx;
+}
+
+.t1 {
+  width: 500rpx;
+}
+
+.t2 {
+  width: 100rpx;
+  align-items: center;
+  justify-content: center;
+}
+
+.replayText {
+  word-break: break-all;
+  border-width: 5rpx;
+  border-color: blue;
+}
+
+.button1 {
+  width: 150rpx;
+  height: 80rpx;
+  margin-left: 20rpx;
+  color: #505050;
+  font-size: 30rpx;
+  font-style: normal;
+  background-color: greenyellow;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+
+.button2 {
+  width: 90%;
+  height: 50rpx;
+  margin-top: 45rpx;
+  font-size: 30rpx; 
+  color: #505050;
+  background-color: greenyellow;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+
+.background {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1572415016714&di=0f8d48fc39395a779d92374cc4d6ddf2&imgtype=0&src=http%3A%2F%2Fhbimg.b0.upaiyun.com%2F0acea46ab6444a030a4f608d6b9727b9c3698f4b493d0-5pFj6y_fw236")
+}
