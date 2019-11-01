@@ -1,0 +1,8 @@
+<!--pages/publish/publish.wxml-->
+<view style="color: rgb(255, 240, 37)">
+<text style="color: rgb(255, 240, 37)">请在此输入:</text>
+<textarea class="inputText" placeholder="请输入发表的内容" bindinput="nrInput" />
+</view>
+ <button class='btn1' bindtap='publishbt'>
+    <view >发表</view>
+ </button>
