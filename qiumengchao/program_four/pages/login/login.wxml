@@ -1,0 +1,33 @@
+<!--pages/login/login.wxml-->
+
+<view >
+  <view >
+  </view>
+
+  <view >
+    <view >
+      <view class="headline">用户名</view>
+      <view class="box"><input bindinput="usernameInput" /></view>
+    </view>
+    <view >
+      <view class="headline">密码</view>
+      <view >
+
+      <input class="box" password="true" bindinput="passwordInput"></input>
+  
+      
+      </view>   
+    </view>
+    <view >
+      <button  class="button" bindtap="loginBtnClick">登录</button>
+      <button  class="button" bindtap="indexBtnClick">返回首页</button>
+    </view>
+  </view>
+  <view>
+    <view class="headline" >还没有账户？</view> 
+  </view>
+  <view>
+  <navigator class="button" url="/pages/reg/reg"> 点击这里注册</navigator> 
+  </view>
+
+</view>

@@ -1,0 +1,34 @@
+/**index.wxss**/
+.t1{
+  height: 380rpx;
+}
+.t1 image{
+  width: 100%;
+  height: 100%;
+}
+
+
+.t2{
+  display: flex;
+  background-color: #f0f0f0;
+  font-size: 20rpx;
+  flex-wrap: wrap;
+}
+.t2 .tt2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:750rpx;
+  height:200rpx;
+  border: 1rpx solid rgb(115, 93, 128);
+  box-sizing: border-box;
+}
+.t2 .tt2 image{
+  width:100rpx;
+  height:100rpx;
+}
+.t2 .tt2 text{
+  display: block;
+  color: #888;
+}

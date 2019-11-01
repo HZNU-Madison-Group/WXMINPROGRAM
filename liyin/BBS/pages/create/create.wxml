@@ -1,0 +1,13 @@
+<!--pages/create/create.wxml-->
+<view class="page-section">
+
+  <view>problem:</view>
+  <view>
+    <textarea bindinput="bindproblem" maxlength="1000"></textarea>
+  </view>
+
+<button type="default"   bindtap="clickcreate" > 创建</button>
+
+</view>
+
+

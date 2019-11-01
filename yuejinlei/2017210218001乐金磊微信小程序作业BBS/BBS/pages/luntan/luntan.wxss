@@ -1,0 +1,34 @@
+/* pages/luntan/luntan.wxss */
+.container1{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around
+}
+.container2{
+display:flex;
+  flex-direction:row;
+
+}
+.container3{
+  height: 100vh;
+  background-color: gainsboro
+}
+.container4{
+display:flex;
+justify-content:center
+}
+.button{
+  background-color: gainsboro;
+  color:red
+}
+.images{
+width: 60rpx;
+height: 60rpx
+
+}
+.images1{
+
+height: 500rpx;
+width: 700rpx
+
+}

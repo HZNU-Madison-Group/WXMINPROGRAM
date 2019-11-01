@@ -1,0 +1,6 @@
+<view>
+<textarea bindinput="createText" calss="createText" maxlength="50000" placeholder="点击进行贴加文本"></textarea>
+
+<button bindtap="create" class="button">创建</button>
+
+</view>

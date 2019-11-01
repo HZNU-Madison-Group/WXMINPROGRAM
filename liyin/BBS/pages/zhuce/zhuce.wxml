@@ -1,0 +1,33 @@
+<!--pages/zhuce/zhuce.wxml-->
+<view class="container">
+  <view style='height:7px;'></view>
+  <view class="center">在这里注册或登录</view>
+  <view style='height:10px;'></view>
+  <view class="login-from">
+    <view class="inputView">
+      <image class="nameImage" src="/images/changyong/1.png"></image>
+      <label class="loginLab">username</label>
+      <!--输入框-->
+      <input class="inputText" placeholder="请输入账号" bindinput="bindusername" />
+    </view>
+    <view class="line"></view>
+    <view style='height:10px;'></view>
+
+    <view class="inputView">
+    <image class="nameImage" src="/images/changyong/2.png"></image>
+      <label class="loginLab">password</label>
+      <!--输入框-->
+      <input class="inputText" password="true" placeholder="请输入密码" bindinput="bindpassword" />
+    </view>
+    <view class="line"></view>
+
+    <!--按钮-->
+    <view style='height:30px;'></view>
+    <button type="primary" bindtap="clicklogin"> 登录 </button>
+    <view style='height:20px;'></view>
+    <button type="default" style="opacity: {{opacity}};color: white; background-color: #ff8719;" bindtap="clicktoreg"> 注册 </button>
+  </view>
+</view>
+
+
+
