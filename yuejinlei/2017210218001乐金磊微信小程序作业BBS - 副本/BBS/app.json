@@ -1,0 +1,20 @@
+{
+  "pages": [
+    "pages/denglu/denglu",
+    "pages/luntan/luntan",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/zhuce/zhuce",
+    "pages/write/write",
+    "pages/search/search",
+    "pages/delete/delete",
+    "pages/reply/reply"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "bbs",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}
