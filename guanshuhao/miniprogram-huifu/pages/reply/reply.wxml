@@ -1,0 +1,18 @@
+<view wx:for="{{message}}" style="color: rgb(255, 240, 37)">
+<view>下标:{{index}}</view>
+<view class="col-4 font-break">问题号:{{item.id}},内容:{{item.problem}}</view>
+<view>用户号:{{item.userid}}</view>
+<view>创建时间:{{item.createtime}}</view>
+<view class='btns'>
+ <button class='btn1' bindtap='replybt' id="{{item.id}}">
+    <view>查看</view>
+ </button>
+ <button class='btn1' bindtap='rreplybt' id="{{item.id}}">
+    <view>回复</view>
+ </button>
+<button class='btn1' bindtap='delbt' id="{{item.id}}">
+<view wx:if="{{item.userid==userid}}">删除</view>
+ </button>
+</view>
+<view>----------------------------------------------</view>
+</view>
