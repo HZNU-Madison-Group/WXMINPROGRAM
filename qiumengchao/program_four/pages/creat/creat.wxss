@@ -1,0 +1,18 @@
+/* pages/creat/creat.wxss */
+.createText {
+  word-break: break-all;
+  border-width: 5rpx;
+  border-color: blue;
+}
+
+.button{
+  width: 90%;
+  height: 50rpx;
+  margin-top: 45rpx;
+  font-size: 30rpx; 
+  color: #505050;
+  background-color: greenyellow;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}

@@ -1,0 +1,21 @@
+<!--index.wxml-->
+<swiper class='t1'>
+  <swiper-item wx:for="{{sliderImageUrls}}" wx:key="id">
+    <image src="{{item}}" mode="aspectFill" />
+  </swiper-item>
+</swiper>
+
+<view class="t2">
+  <view class="tt2">
+    <navigator url="/pages/forum/forum">
+      <image src="/images/luntan.png" />
+      <text>论坛</text>
+    </navigator>
+  </view>
+  <view class="tt2">
+    <navigator url="/pages/creat/creat">
+      <image src="/images/xinjian.png" />
+      <text>创建帖子</text>
+    </navigator>
+  </view>
+</view>

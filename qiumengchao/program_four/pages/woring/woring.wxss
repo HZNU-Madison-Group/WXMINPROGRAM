@@ -1,0 +1,11 @@
+/* pages/woring/woring.wxss */
+.button {
+  width: 90%;
+  margin-top: 30rpx;
+  color: #505050;
+}
+.button {
+  width: 90%;
+  margin-top: 30rpx;
+  color: #505050;
+}

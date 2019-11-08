@@ -1,0 +1,21 @@
+
+<view class="page login" >
+
+  <view class="login-item">
+      <image class="login-item-img" mode="scaleToFill" src="/images/icon/logo.png"></image>
+
+      <view class="login-item-section">
+        <input placeholder="请输入账号" class="login-item-input" placeholder-style="color:#f5f5f5;" bindinput="bindusername" />
+        <input placeholder="请输入密码" class="login-item-input" placeholder-style="color:#f5f5f5;" bindinput="bindpassword" />
+      </view>
+      
+      <view class="login-item-button">
+        <button type="primary" size="default" plain="false" loading="{{loading}}" class="login-button" bindtap="clicktoreg1"> 登录 </button>
+        <button type="primary" size="default" plain="false" loading="{{loading}}" class="login-button" bindtap="clicktoreg2"> 注册 </button>
+      </view>
+      
+      
+      <view class="error-msg" wx:if="{{error}}">{{error}}</view>
+  </view>
+
+</view>

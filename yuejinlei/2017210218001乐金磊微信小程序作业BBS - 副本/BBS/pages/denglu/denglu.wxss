@@ -1,0 +1,95 @@
+/* pages/denglu/denglu.wxss */
+.container1{
+  height: 100vh;
+ background-color: #dddddd
+ 
+}
+.container2{
+  height: 30vh;
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-content: center
+}
+.container3{
+  height: 10vh
+}
+.container4{
+  height: 10vh
+}
+.container5{
+  display:flex;
+  flex-direction:row;
+}
+.button1{
+  width:200rpx;
+  color:green;
+  border-right:1px solid #E5E7ED
+}
+.button2{
+  width:450rpx;
+  color:green;
+  border-right:1px solid #E5E7ED
+}
+.container6{
+  height: 50vh;
+}
+.images{
+  width: 750rpx;
+  height:50vh;
+}
+.text{
+  color: red;
+  font-size: 50rpx;
+}
+.input{
+  font-size: 50rpx;
+}
+.login{
+  overflow: hidden;
+  height: 100%;
+  background: #444;
+}
+
+.login-item{
+  text-align: center;
+
+}
+
+.login-item-img{
+  width:  750rpx;
+  height: 600rpx;
+  margin-top: 180rpx;
+  margin-bottom:30rpx;
+}
+.login-item-section{
+  width:  460rpx;
+  margin: 20rpx auto;
+  padding: 10rpx 15rpx;
+  border-bottom: 1rpx solid rgba(136, 136, 136, 0.6);
+  background: rgba(136, 136, 136, 0.6);
+}
+.login-item-section .login-item-input{
+  color: #fff;
+  height: 50rpx;
+  line-height: 50rpx;
+  font-size: 28rpx;
+}
+
+.login-item-button{
+  width: 400rpx;
+  margin: 50rpx auto 20rpx auto;
+  display: flex;
+  flex-direction: row
+}
+.login-button{
+  font-size: 28rpx;
+}
+
+.error-msg{
+  color: red;
+}
+.login-item-button1{
+  width: 120rpx;
+  margin: 50rpx auto 20rpx auto;
+}
