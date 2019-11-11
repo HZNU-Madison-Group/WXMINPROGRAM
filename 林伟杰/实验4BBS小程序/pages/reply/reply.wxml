@@ -1,0 +1,43 @@
+<!--pages/replay/replay.wxml-->
+<view class="background">
+  <view wx:for="{{browsereplybyid}}" wx:key="key">
+    
+    <view class="border">
+      <text class="xitem1">
+        id:{{item.id}}
+        userid:{{item.userid}}
+        prblem:{{item.problem}}
+        createtime:{{item.createtime}}
+        parentid:{{item.parentid}}
+      </text>
+
+      <view class="byrow">
+      
+        <view class="t1">
+          <text class="xitem2">
+            createtime:{{item.createtime}}
+          </text>
+        </view>
+
+        <view class="t2">
+          <button bindtap="reply" data-id="{{item.id}}" class="button1">回复</button>
+          <button bindtap="dele" data-id="{{item.id}}" class="button1">删除</button>
+        </view>
+
+      </view>
+
+    </view>
+
+  </view>
+
+
+  <view>---------------</view>
+  <view>
+    <textarea bindinput="replayText" calss="replayText" maxlength="50000" placeholder="点击进行跟帖"></textarea>
+    <button class="button2" bindtap="confirm">回复</button>
+  </view>
+
+
+
+
+</view>
