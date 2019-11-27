@@ -1,0 +1,15 @@
+<view>
+  <view>
+    <text class="t2">用户id:{{id}}</text>
+  </view>
+  <view>
+    <text class="t2">用户名:{{username}}</text>
+  </view>
+  <view>
+    <text class="t2">登陆成功</text>
+  </view>
+  <view>
+    <button bindtap="logout">退出登录</button>
+  </view>
+
+</view>
