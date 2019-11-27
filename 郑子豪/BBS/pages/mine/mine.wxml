@@ -1,0 +1,15 @@
+<!--pages/mine/mine.wxml-->
+<text class="title">个人信息</text>
+<view >
+<text class="title">\n\n\n</text>
+</view>
+
+
+<!--从全局变量得到个人id-->
+<view class="image-parent">
+<text class="text">用户ID：{{username}}</text>
+</view>
+
+<view class="image-parent" bindtap="bindhis">
+<block class="text">历史记录</block>
+</view>
