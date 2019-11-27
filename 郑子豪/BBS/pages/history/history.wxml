@@ -1,0 +1,9 @@
+<!--pages/history/history.wxml-->
+<view>
+<text class="title">历史记录\n </text>
+<view  wx:for= "{{datas}}" wx:for-item="item" wx:for-index="idx">
+<view id ="{{idx}}" class="image-parent" bindtap="clickToread">
+<text >父贴ID:{{item.parentid}} \n 正文:{{item.problem}} \n 日期：{{item.createtime}} \n\n </text>
+</view>
+</view>
+</view>

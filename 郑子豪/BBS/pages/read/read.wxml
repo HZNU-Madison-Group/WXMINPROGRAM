@@ -1,0 +1,31 @@
+<!--pages/read/read.wxml-->
+<view class="main">
+<text class="title">浏览 \n</text>
+<view wx:if="{{delete_display}}">
+<button  class="button" bindtap="clickTodelete" > 删除本帖 </button>
+</view></view>
+<!--输出帖子内容-->
+<view class="main">
+<text>帖子id:{{data.id}} 发布者id:{{data.userid}} 父贴id:{{data.parentid}} \n 内容：{{data.problem}}  </text>
+</view>
+<view class="main">
+<text> 发布时间：{{data.createtime}} \n </text>
+</view>
+<!--输出子贴内容-->
+<view>
+<view  wx:for= "{{datas}}" wx:for-item="item" wx:for-index="idx">
+<view id ="{{idx}}"  class="image-parent" bindtap="clickToread">
+<text >  发布者ID：{{item.userid}} ; 正文:{{item.problem}} \n 日期：{{item.createtime}} \n 父贴ID:{{item.parentid}}\n</text>
+</view>
+</view>
+</view>
+<!--回复-->
+<view  wx:if="{{!input_display}}">
+<button  class="button1" bindtap="clickToReply" > 回复 </button>
+</view>
+<view class="button1" wx:if="{{input_display}}">
+<view class="main">
+<input style="border:1px solid grey" class="input1" maxlength="100" bindinput="bindword" placeholder="请输入希望回复的内容" />
+<button wx:if="{{input_display}}" class="button" bindtap="clickToReply2" > 回复 </button>
+</view>
+</view>

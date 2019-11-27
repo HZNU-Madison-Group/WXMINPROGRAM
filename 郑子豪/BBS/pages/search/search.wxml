@@ -1,0 +1,17 @@
+<!--pages/search/search.wxml-->
+<view>
+    <text class="title">所有帖子:</text>
+    <view class="main">
+    <input style="border:1px solid grey" class="input1" maxlength="100" bindinput="bindword" placeholder="请输入希望发布的内容" />
+    <button  class="button" bindtap="clickToCreate" > 发布新帖子 </button>
+    </view >
+</view >
+<!--搜索结果输出，其中需要注意实际上datas中的内容可能不是这些，需要联网确认-->
+<view>
+<view  wx:for= "{{datas}}" wx:for-item="item" wx:for-index="idx">
+<view id ="{{idx}}"  class="image-parent" bindtap="clickToread">
+<text >  发布者ID：{{item.userid}} ; 正文:{{item.problem}} \n 日期：{{item.createtime}} \n 父贴ID:{{item.parentid}}\n</text>
+</view>
+</view>
+</view>
+
