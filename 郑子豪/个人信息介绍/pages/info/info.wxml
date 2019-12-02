@@ -1,0 +1,14 @@
+<!--pages/info/info.wxml-->
+<text class="title">个人信息\n</text>
+<image src="/pages/pic/IMG_20171202_131750.jpg" class="pic"> </image>
+<text class="result"> 姓名：</text>
+<text class="value"> 郑子豪\n</text>
+<text class="result"> 班级：</text>
+<text class="value">信息171\n</text>
+<text class="result"> 常用ID：</text>
+<text class="value">E.F.、\n </text>
+<text class="value2">这里是狗粮爱好者协会 等\n</text>
+<text class="result"> 特点：</text>
+<text class="value">文字中毒患者\n</text>
+<text class="result"> 特长：</text>
+<text class="value">日语(?)\n</text>

@@ -1,0 +1,4 @@
+<!--pages/Result/Result.wxml-->
+<text class="title">Result Page\n\n\n\n\n\n\n</text>
+<text class="result"> You guessed {{num}} times!\n</text>
+<button bindtap="click" class="buttons"> Play Again </button>
