@@ -1,0 +1,34 @@
+{
+  "pages": [
+    "pages/info/info",
+    "pages/photo/photo",
+    "pages/follow/follow",
+    "pages/friends/friends",
+    "pages/follower/follower"
+  ],
+  "window": {
+    "navigateStyle": "custom",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/info/info",
+        "text": "info",
+        "iconPath": "/images/photo1/p2.png",
+        "selectedIconPath": "/images/photo1/p2_new.png"
+      },
+      {
+        "pagePath": "pages/photo/photo",
+        "text": "photo",
+        "iconPath": "images/photo1/zuopin.png",
+        "selectedIconPath": "images/photo1/zuopin-2.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

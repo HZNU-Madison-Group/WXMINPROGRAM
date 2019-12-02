@@ -1,0 +1,36 @@
+<!--pages/c/c.wxml-->
+
+<view>
+<icon type="clear" size="50rpx" color="" bindtap="click"></icon>
+</view>
+<view>
+<progress percent="{{p}}" color="red" border-radius="50" stroke-width="60px" backgroundColor="green"  >
+</progress>
+<view style="text-align:center">
+<text>
+{{p}}%
+</text>
+</view>
+</view>
+<view>
+<rich-text nodes="{{x}}">
+</rich-text >
+</view> 
+<view>
+<checkbox-group bindchange="change">werg
+</checkbox-group>
+</view>
+<view>
+<picker mode="selector" bindchange="alter" values="{{index}}"range="{{pickrange}}">
+Click me to choose
+</picker>
+your choice is {{pickrange[currentindex]}}
+</view>
+<view>
+<picker mode="multiSelector" range="{{pickrange1}}" bindchange="t">
+Click me to choose
+</picker>
+your choice is
+</view>
+<slider step="4">
+</slider>

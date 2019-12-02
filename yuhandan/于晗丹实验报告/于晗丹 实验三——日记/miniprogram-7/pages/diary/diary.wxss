@@ -1,0 +1,74 @@
+/* pages/diary/diary.wxss */
+page{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+}.title{
+
+  height: 100%;
+  width: 700rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+
+}
+    .test-bg{
+    width: 100%;
+    height: 100%;
+    background-color: #B7CBE6;
+  }
+  .bg-image{
+    display: flex;
+    width: 100%;
+    height:100%;
+    background-color: rgba(0,0,0,.2);
+  }
+.parent{
+  height: 115rpx;
+  width:100%;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.image-parent{
+  height: 100%;
+  width:100%;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.mood{
+  height: 100rpx;
+    width: 100rpx;
+    position: absolute;
+  right:25;
+  top:0.1cm;
+  
+}
+
+.row{
+    width: 100%;
+    height:100%
+}
+.row .text{
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    line-height: 26px;
+    color: #000000;    
+
+}

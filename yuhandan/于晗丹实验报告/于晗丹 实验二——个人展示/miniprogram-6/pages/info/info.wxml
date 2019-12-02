@@ -1,0 +1,28 @@
+<!--pages/info/info.wxml-->
+<view class="image-parent">
+
+  <view class="test-bg" style="opacity:{{0.6}}">
+    <image src="/images/photo1/p1.jpeg" class="bg-image" mode="scaleToFill"></image>
+  </view>
+  <view class="name">Diana yu</view>
+  <view class="name1">University Student</view>
+  <image src="/images/photo1/aixin.png" class="aixin">
+
+  </image>
+  <view class="population">{{population}}</view>
+
+  <image bindtap="clickFriends" src="/images/photo1/friend.png" class="friend" style="opacity:{{0.7}}" ></image>
+  <view class="friends">Friends</view>
+  <view class="friends_text">{{friends}}</view>
+  <image bindtap="clickFollowers"  src="/images/photo1/follower.png" class="follower" style="opacity:{{0.7}}"></image>
+  <view class="followers">Follower</view>
+  <view class="followers_text">{{followers}}</view>
+  <view class="follow">
+    Do you want to follow me?
+  </view>
+
+  <image src="/images/photo1/xiahua.png" class="xiahua" style="opacity:{{0.4}}"></image>
+</view>
+<view>
+  <text>\n</text>
+</view>

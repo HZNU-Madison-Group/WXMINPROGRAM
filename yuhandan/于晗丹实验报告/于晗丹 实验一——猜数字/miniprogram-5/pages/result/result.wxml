@@ -1,0 +1,13 @@
+<!--pages/result/result.wxml-->
+<view class="myCenter">
+<view>
+<text class="test1">正确答案为{{target}}</text>
+</view>
+<view>
+<text class="test1">一共猜测{{total}}次</text>
+</view>
+</view>
+<image src="/images/success.png" class="myPhoto"></image>
+<view class="myCenter">
+<text class="test2">胜利</text>
+</view>

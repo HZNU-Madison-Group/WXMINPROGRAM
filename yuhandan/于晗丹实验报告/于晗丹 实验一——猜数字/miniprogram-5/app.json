@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/guess/guess",
+    "pages/result/result",
+    "pages/diary/diary",
+    "pages/c/c"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/guess/guess",
+        "text": "组件",
+        "iconPath": "images/gray/shuzi0.png",
+        "selectedIconPath": "images/red/shuzi0.png"
+      },
+      {
+        "pagePath": "pages/c/c",
+        "text": "接口",
+        "iconPath": "images/gray/shuzi1.png",
+        "selectedIconPath": "images/red/shuzi1.png"
+      },
+      {
+        "pagePath": "pages/diary/diary",
+        "text": "日记",
+        "iconPath": "images/gray/shuzi2.png",
+        "selectedIconPath": "images/red/shuzi2.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

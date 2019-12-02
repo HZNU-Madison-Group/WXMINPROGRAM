@@ -1,0 +1,18 @@
+<!--pages/diary/diary.wxml-->
+    <view class="page-section">
+    <view class="weui-cells__title">username：{{inputValue}}</view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_input">
+        <input class="weui-input"  maxlength="10" bindinput="bindKeyInputname" placeholder="输入同步到view中"/>
+      </view>
+    </view>
+
+    <view class="weui-cells__title">password：{{inputValue}}</view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_input">
+        <input class="weui-input"  maxlength="10" bindinput="bindKeyInputps" placeholder="输入同步到view中"/>
+      </view>
+    </view>
+    <button type="default" size="{{defaultSize}}" loading="{{loading}}" plain="{{plain}}"
+        disabled="{{disabled}}" bindtap="default" hover-class="other-button-hover"> default </button>
+  </view>

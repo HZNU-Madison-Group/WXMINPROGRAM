@@ -1,0 +1,13 @@
+/* pages/login/login.wxss */
+page{
+    width: 100%;
+    height: 100%;
+    background-size: cover
+}
+.page-section{
+  margin-top: 500
+}
+.weui-cells__title{
+  font-size: 200;
+  text-align: center
+}
