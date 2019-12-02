@@ -1,0 +1,63 @@
+<!--index.wxml-->
+
+<view class="t2">
+  <view class="tt2">
+    <navigator url="/pages/jibenxinxi/jibenxinxi">
+    <image src='/images/gride-images/jibenxinxi.png' />
+    <text>基本信息</text>
+    </navigator>
+    
+  </view>
+  <view class="tt2">
+  <navigator url="/pages/xingquaihao/xingquaihao">
+    <image src='/images/gride-images/xingquaihao.png' />
+    <text>兴趣爱好</text>
+    </navigator>
+  </view>
+
+  <view class="tt2">
+  <navigator url="/pages/xinggetezheng/xinggetezheng">
+    <image src='/images/gride-images/xinggetezheng.png' />
+    <text>性格特征</text>
+    </navigator>
+  </view>
+
+  <view class="tt2">
+  <navigator url="/pages/jinengtechang/jinengtechang">
+    <image src='/images/gride-images/jinengtechang.png' />
+    <text>技能特长</text>
+    </navigator>
+  </view>
+
+  <view class="tt2">
+  <navigator url="/pages/jiaoyujingli/jiaoyujingli">
+    <image src='/images/gride-images/jiaoyujingli.png' />
+    <text>教育经历</text>
+    </navigator>
+  </view>
+  
+  <view class="tt2">
+  <navigator url="/pages/gongzuojingli/gongzuojingli">
+    <image src='/images/gride-images/gongzuojingli.png' />
+    <text>工作经历</text>
+    </navigator>
+  </view>
+  <view class="tt2">
+  <navigator url="/pages/peixunjingli/peixunjingli">
+    <image src='/images/gride-images/peixunjingli.png' />
+    <text>培训经历</text>
+    </navigator>
+  </view>
+  <view class="tt2">
+  <navigator url="/pages/chengzhangjingli/chengzhangjingli">
+    <image src='/images/gride-images/chengzhangjingli.png' />
+    <text>成长经历</text>
+    </navigator>
+  </view>
+  <view class="tt2">
+  <navigator url="/pages/weilaijihua/weilaijihua">
+    <image src='/images/gride-images/weilaijihua.png' />
+    <text>未来计划</text>
+    </navigator>
+  </view>
+</view>

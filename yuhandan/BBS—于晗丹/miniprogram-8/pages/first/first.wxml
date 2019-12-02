@@ -1,0 +1,27 @@
+<!--pages/initial/initial.wxml-->
+<!--图片-->
+<view class="slide-imge" >
+<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+<swiper-item wx:for="{{imgUrls}}">
+<image src="{{item}}" ></image>
+</swiper-item>
+</swiper>
+</view>
+<view class="parent"></view>
+<!--write-->
+<view class="image-parent" bindtap="write">
+<image  src="/images/write.png" style="width:150rpx;height:150rpx"></image>
+<text  style="font-size:2.5rem;color:#0AAAF6;font-family:'微软雅黑">发表贴子</text>
+</view>
+<view class="parent"></view>
+<!--search-->
+<view class="image-parent" bindtap="search">
+<image src="/images/guanzhu.png" style="width:170rpx;height:190rpx"></image>
+<text style="font-size:2.5rem;color:#0AAAF6;font-family:'微软雅黑">关注的吧</text>
+
+</view>
+<view class="parent"></view>
+<view class="image-parent" bindtap="me">
+<image src="/images/gerenxinxi.png" style="width:170rpx;height:190rpx"></image>
+<text style="font-size:2.5rem;color:#0AAAF6;font-family:'微软雅黑">个人信息</text>
+</view>
