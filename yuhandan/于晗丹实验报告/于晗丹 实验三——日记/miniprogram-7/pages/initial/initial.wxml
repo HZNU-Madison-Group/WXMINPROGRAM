@@ -1,0 +1,24 @@
+<!--pages/initial/initial.wxml-->
+<!--图片-->
+<view >
+<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+<swiper-item wx:for="{{imgUrls}}">
+<image src="{{item}}" class="slide-imge"></image>
+</swiper-item>
+</swiper>
+</view>
+<!--write-->
+<view class="image-parent" bindtap="write">
+<image  src="/images/write.png" style="width:200rpx;height:200rpx"></image>
+<text style="font-size:2rem;color:#0AAAF6">Write Diary</text>
+</view>
+<!--search-->
+<view class="image-parent" bindtap="search">
+<image src="/images/search.png" style="width:170rpx;height:190rpx"></image>
+<text style="font-size:2rem;color:#0AAAF6">Search Diary</text>
+</view>
+<!--record-->
+<view class="image-parent" bindtap="record">
+<image src="/images/record.png" style="width:170rpx;height:190rpx"></image>
+<text style="font-size:2rem;color:#0AAAF6">Record Diary</text>
+</view>

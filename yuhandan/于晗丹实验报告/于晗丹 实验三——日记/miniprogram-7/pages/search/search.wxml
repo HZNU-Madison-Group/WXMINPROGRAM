@@ -1,0 +1,16 @@
+<!--pages/search/search.wxml-->
+
+<!--搜索栏-->
+<view class="parent">
+  <image  bindtap="search" src="/images/sousuo.png" style="width:100rpx;height:100rpx"></image>
+    <input style="border:1px solid gray" class="weui-input" maxlength="100" placeholder="Please enter keywords" bindinput="bindsearch"/>
+ </view>
+ <!--结果栏-->
+<view wx:for='{{str1}}' >
+  <view id='{{item.id}}' bindtap="clickme" class="image-parent" >
+    <text style="font-size:1rem;color:#0AAAF6" >{{item.sj}}</text>
+    <text style="font-size:1rem;color:#0AAAF6;margin-left:15rpx">{{item.nr[0]}}</text>
+    <image src="/images/mood/{{item.xq}}.png" style="height:100rpx;width:100rpx;margin-left:15rpx"></image>
+  </view>
+</view>
+    

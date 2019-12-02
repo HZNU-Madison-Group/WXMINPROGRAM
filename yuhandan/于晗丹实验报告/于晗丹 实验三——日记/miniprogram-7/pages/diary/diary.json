@@ -1,0 +1,6 @@
+{
+  "usingComponents": {},
+  "navigationBarTitleText": "Diary",
+  "onReachBottomDistance": 200,
+  "backgroundColor": "#AFEEEE"
+}

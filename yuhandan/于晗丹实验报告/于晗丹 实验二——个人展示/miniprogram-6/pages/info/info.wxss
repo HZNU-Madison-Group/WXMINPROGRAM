@@ -1,0 +1,141 @@
+page{
+    width: 100%;
+    height: 100%;
+  }
+  .test-bg{
+    width: 100%;
+    height: 100%;
+    background-color: #70c7da;
+  }
+  .bg-image{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.2);
+  }
+  .image-parent {
+  height: 100%; 
+  position: relative
+}
+.name {
+  font-size: 30px;
+  position: absolute;
+  left:0.7cm;
+  top:1cm;
+  right: 0;
+  bottom: 0;
+  text-align: left
+  }  
+  .name1 {
+  font-size: 20px;
+  position: absolute;
+  left:0.7cm;
+  top:2cm;
+  right: 0;
+  bottom: 0;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.5)
+  }  
+  .aixin{
+    height: 100rpx;
+    width: 170rpx;
+    position: absolute;
+  left:15;
+  top:1.4cm;
+  right: 0.7cm;
+  bottom: 0;
+  text-align: right;
+  }
+  .population{
+    font-size: 20px;
+    color: #6567d1e8;
+    position: absolute;
+  left:0cm;
+  top:1.6cm;
+  right: 1.7cm;
+  bottom: 0;
+  text-align: right;
+  }
+  .friend{
+    height: 198rpx;
+    width: 240rpx;
+    position: absolute;
+  left:1.2cm;
+  top:3.4cm;
+  right: 0cm;
+  bottom: 0;
+  text-align: left;
+  border:1px solid rgb(240, 233, 233);border-radius: 15%;
+  margin: 5rpx
+  }
+  .friends{
+    font-size: 30px;
+  position: absolute;
+  left:0.3cm;
+  top:5cm;
+  right: 0;
+  bottom: 0;
+  text-align: left;
+  color: #57909c
+  }
+   .friends_text{
+    font-size: 30px;
+  position: absolute;
+  left:0.3cm;
+  top:4cm;
+  right: 0;
+  bottom: 0;
+  text-align: left;
+  color: #307483
+  }
+  .follower{
+    height: 200rpx;
+    width: 240rpx;
+    position: absolute;
+  left:4.5cm;
+  top:3.4cm;
+  right: 1.5cm;
+  bottom: 0;
+  text-align: left;
+  border:1px solid rgb(240, 233, 233);border-radius: 15%;
+  margin: 5rpx
+  }
+.followers{
+ font-size: 30px;
+  position: absolute;
+  left:5.3cm;
+  top:5cm;
+  right: 0;
+  bottom: 0;
+  text-align: left;
+  color: #6567d1e8
+  }
+  .followers_text{
+    font-size: 30px;
+  position: absolute;
+  left:7cm;
+  top:4cm;
+  right: 0;
+  bottom: 0;
+  text-align: left;
+  color: #4574db
+  }
+  .follow{
+    font-size: 20px;
+    color: #000000;
+   position: absolute;
+  left:0.7cm;
+  top:8cm;
+  right: 0;
+  bottom: 0;
+  text-align: center
+  }
+  .xiahua{
+    height: 0.7cm;
+    width: 1cm;
+    left:4cm;
+  top:9cm;
+  right: 0;
+  bottom: 0;
+    position: absolute
+  }

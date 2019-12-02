@@ -1,0 +1,30 @@
+
+<!--pages/diary/diary.wxml-->
+
+  
+
+<view class="parent">
+<view class="test-bg">
+<!--表头信息-->
+<view class="title">
+<image  bindtap="chosemood" src="/images/mood/{{mood}}.png" style="width:450rpx;height:100rpx"></image>
+<image src="/images/rili.png" style="width:300rpx;height:100rpx"></image>
+<input style="border:1px solid gray;top:-10rpx;width:40rem;margin-left:20rpx; font-size: 20px; height: 3rem;min-height: 0.8rem" maxlength="20" bindinput="bindTitle" placeholder="Title" placeholder-style="margin-left:150rpx"/>
+<text bindtap="save" style="font-size:1.2rem;align-items:right;margin-left:5rpx">Save</text>
+  </view>
+</view>
+</view>
+<!--文本框-->
+<view class='row' id="textareawrap" catchtap="onFocus">
+        <textarea  bindinput="bind" fixed="true" class='text'  maxlength="5000000"  
+        focus="true" name="content" placeholder="点击添加文本"   >
+<!--背景图-->
+<view class="image-parent">
+  <view class="test-bg" style="opacity:{{0.6}}">  
+    <image src="/images/p1.jpeg" class="bg-image" mode="scaleToFill">
+    </image>
+  </view>
+</view>
+ </textarea>
+     </view>
+
