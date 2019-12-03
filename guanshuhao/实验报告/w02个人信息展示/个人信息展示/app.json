@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/Essential information/Essential information",
+    "pages/logs/logs",
+    "pages/address/address",
+    "pages/index/index",
+    
+    
+    "pages/Detailed information/Detailed information"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [
+      
+      {
+        "pagePath": "pages/Essential information/Essential information",
+        "text": "基本信息",
+        "iconPath": "images/2c2c2c/xinxixi.png",
+        "selectedIconPath": "images/bfbfbf/xinxixi.png"
+      },
+      {
+        "pagePath": "pages/Detailed information/Detailed information",
+        "text": "详细信息",
+        "iconPath": "images/2c2c2c/xiangxi.png",
+        "selectedIconPath": "images/bfbfbf/xiangxi.png"
+      },
+      {
+        "pagePath": "pages/address/address",
+        "text": "地址",
+        "iconPath": "images/2c2c2c/address.png",
+        "selectedIconPath": "images/bfbfbf/address.png"
+      }
+    ]
+  }
+}

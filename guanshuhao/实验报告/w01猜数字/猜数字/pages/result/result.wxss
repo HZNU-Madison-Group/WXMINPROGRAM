@@ -1,0 +1,13 @@
+/* pages/result/result.wxss */
+.tp{
+  width:230rpx;
+  height: 230rpx;
+  border: 1px solid #F40;
+  border-radius: 15%;
+  margin:5rpx;
+}
+
+.t2{
+  color:rgb(255, 0, 0);
+  font-size: 45px
+}

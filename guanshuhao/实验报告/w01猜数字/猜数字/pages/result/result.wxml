@@ -1,0 +1,13 @@
+<!--pages/result/result.wxml-->
+<view>
+  <!-- <image id="9" bindtap="click" src="/image/black/shuzi9.png" class="tp"></image> -->
+</view>
+<!-- <view>
+{{app.count}}
+</view> -->
+<view>
+    <text class="t2">恭喜你！</text>
+  <view>
+    <text class="t2">你尝试了{{count}}次！</text>
+  </view>
+</view>

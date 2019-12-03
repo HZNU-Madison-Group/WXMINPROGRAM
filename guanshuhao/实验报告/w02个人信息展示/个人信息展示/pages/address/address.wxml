@@ -1,0 +1,28 @@
+<!--pages/address/address.wxml-->
+<!--user.wxml-->
+
+<view class="container">
+  <view class="user_base_info">
+    <view class="user_avatar">
+        <image src="/images/2c2c2c/2.png"></image>
+    </view>
+    <view class="user_info">
+      <text>
+        昵称：nic0ni
+        姓名：管书豪
+        电话：18857615800
+      </text>
+    </view>
+  </view>
+
+ <view class="user_addr_manage">
+    <view class="user_addr_title">【地址管理】</view>
+    <view class="user_addr_item">浙江省杭州市余杭区运溪路 瑞城花园</view>
+      <view class="user_addr_item">浙江省杭州市余杭区仓前街道 杭师大B区精思苑</view>
+      <view class="user_addr_item">浙江省台州市路桥区银座街 银安小区</view>
+      
+      
+    <navigator url="../edit_addr/edit_addr" >新增地址 +</navigator>
+ </view>
+  
+</view>

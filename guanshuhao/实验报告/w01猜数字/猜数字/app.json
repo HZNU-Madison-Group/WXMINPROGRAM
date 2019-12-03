@@ -1,13 +1,9 @@
 {
   "pages": [
-    "pages/initial/initial",
-    "pages/login/login",
-    
-    
-    "pages/check/check",
-    "pages/reply/reply",
-    "pages/publish/publish",
-    "pages/rreply/rreply"
+    "pages/guess/guess",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/result/result"
   ],
   "window": {
     "backgroundTextStyle": "light",
