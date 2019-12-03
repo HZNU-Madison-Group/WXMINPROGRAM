@@ -1,0 +1,31 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/introduction/introduction",
+    "pages/xueyuan/xueyuan"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "index",
+        "iconPath": "images/black/shouye.png",
+        "selectedIconPath": "images/red/shouye.png"
+      },
+      {
+        "pagePath": "pages/introduction/introduction",
+        "text": "introduction",
+        "iconPath": "images/black/yonghu.png",
+        "selectedIconPath": "images/red/yonghu.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
