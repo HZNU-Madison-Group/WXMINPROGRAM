@@ -1,0 +1,58 @@
+<button bindtap="test" style="height:40px">
+  图书入库
+</button>
+
+<view class="parent"></view>
+
+<button bindtap="focusButn" style="height:40px">
+  图书查询
+</button>
+
+<view class='commentInputView' style='bottom:{{height == ""?0:height}}px;' hidden='{{!isInput}}'>
+
+  <view class='commentInput'>
+    <input bindinput="bind" class='input' maxlength='100' value="{{value}}" bindfocus="inputFocus" focus='{{focusInput}}' bindblur="inputBlur"></input>
+  </view>
+  <button bindtap="search" class='send' style="width:90px">搜索</button>
+</view>
+
+<view class="parent"></view>
+
+
+<view wx:if="{{test}}">
+
+  <view class="info">
+    <text>ISBN：</text>
+    <input value="{{ISBN}}" style="border:1px solid gray" maxlength="100" bindinput="ISBN" />
+  </view>
+
+  <view class="info">
+    <text>书名：</text>
+    <input value="{{title}}" style="border:1px solid gray" maxlength="100" bindinput="title" />
+  </view>
+
+  <view class="info">
+    <text>作者：</text>
+    <input value="{{author}}" style="border:1px solid gray" maxlength="100" bindinput="author" />
+  </view>
+
+  <view class="info">
+    <text>价格：</text>
+    <input value="{{price}}" style="border:1px solid gray" maxlength="100" bindinput="price" />
+  </view>
+
+  <view wx:if="{{test1}}">
+    <view class="parent"></view>
+    <view class="btn1">
+      <button bindtap="confirm">
+        确认
+      </button>
+    </view>
+
+    <view class="btn2">
+      <button bindtap="cancel">
+        取消
+      </button>
+    </view>
+  </view>
+</view>

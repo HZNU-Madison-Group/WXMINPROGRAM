@@ -1,0 +1,14 @@
+<!--pages/comment/comment.wxml-->
+<view class="msg-box">
+  <view class="send-box">
+    <input value='{{inputVal}}' bindinput='changeInputVal' class="input" type="text" placeholder='输入评论：' placeholder-class='place-input' />
+    <button size='mini' type="primary" bindtap='addMsg'>发表</button>
+  </view>
+  <text class="msg-info" wx:if="{{msgData.length==0}}">暂无评论</text>
+  <view class="list-view">
+    <view class="item" wx:for="{{msgData}}" wx:key="{{index}}">
+      <text class='text1'>{{item.msg}}</text>
+      <icon data-index="{{index}}" class="close-btn" bindtap='deleMsg' type="cancel"></icon>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,18 @@
+/* pages/guess/guess.wxss */
+
+.tp{
+  width: 230rpx;
+  height: 200rpx;
+  border: 1px solid #F40;
+  border-radius: 15%;
+  margin: 5rpx
+}
+.t0{
+  display:flex;
+  justify-content: center
+
+}
+.go{
+  width: 230rpx;
+  height: 200rpx;
+}

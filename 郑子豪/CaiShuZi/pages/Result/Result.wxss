@@ -1,0 +1,14 @@
+/* pages/Result/Result.wxss */
+.title{
+  color:rgb(255, 0, 0);
+  font-size:25px;
+  margin-left:90px
+}
+.result{
+  color:chocolate;
+  margin-top: 100px;
+  margin-left:80px
+}
+.buttons{
+  margin: 10px;
+}

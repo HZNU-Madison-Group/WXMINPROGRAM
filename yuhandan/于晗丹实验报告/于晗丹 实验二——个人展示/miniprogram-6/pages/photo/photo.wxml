@@ -1,0 +1,20 @@
+<!--pages/photo/photo.wxml-->
+<view>
+<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+<swiper-item wx:for="{{imgUrls}}">
+<image src="{{item}}" class="slide-imge"></image>
+</swiper-item>
+</swiper>
+</view>
+<view class="Travel">Travel</view>
+<view>
+<image src="/images/photo1/food.jpg" class="food">
+</image>
+</view>
+<view class="Food">Food</view>
+<view>
+<image src="/images/photo1/animal.jpeg" class="animal">
+</image>
+</view>
+<view class="Animal">Animal</view>
+

@@ -1,0 +1,20 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/initial/initial",
+    "pages/require/require",
+    "pages/look/look",
+    "pages/first/first",
+    "pages/myself/myself",
+    "pages/write/write",
+    "pages/input/input",
+    "pages/me/me"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#0AAAF6",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}

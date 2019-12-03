@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/diary/diary",
+    "pages/add/add",
+    "pages/login/login"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "skyblue",
+    "navigationBarTitleText": "我的日记",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "主页",
+        "iconPath": "images/weixin.png",
+        "selectedIconPath": "images/weixin.png"
+      },
+      {
+        "pagePath": "pages/login/login",
+        "text": "登陆",
+        "iconPath": "images/login.png",
+        "selectedIconPath": "images/login.png"
+      },
+      {
+        "pagePath": "pages/diary/diary",
+        "text": "日记",
+        "iconPath": "images/diary.png",
+        "selectedIconPath": "images/diary.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

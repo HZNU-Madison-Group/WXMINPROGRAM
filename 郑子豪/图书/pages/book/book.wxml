@@ -1,0 +1,18 @@
+<!--pages/book/book.wxml-->
+<view class="main">
+<text class="title" >图书入库与检索 \n \n \n </text>
+</view>
+<view class="main">
+<button  class="button" bindtap="clickToScan" > 图书入库 </button>
+</view>
+
+<view class="line">
+</view>
+<view class="main">
+<button  class="button" bindtap="clickToSearch" > 图书检索 </button>
+</view>
+
+<view class="main" wx:if="{{input_display}}">
+<input style="border:1px solid grey" class="input1" maxlength="100" bindinput="bindword" placeholder="请输入希望检索的书籍编码" />
+</view>
+<button wx:if="{{input_display}}" class="button2" bindtap="clickToSearch2" > Search </button>

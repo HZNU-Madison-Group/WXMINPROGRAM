@@ -1,0 +1,22 @@
+
+<!--pages/diary/diary.wxml-->
+
+  
+
+<view class="parent">
+
+<!--表头信息-->
+<view class="title">
+<input style="border:1px solid gray;top:-10rpx;width:40rem;margin-left:20rpx; font-size: 20px; height: 3rem;min-height: 0.8rem" maxlength="20" placeholder="Title" placeholder-style="margin-left:150rpx"/>
+<text bindtap="save" style="font-size:1.2rem;align-items:right;margin-left:5rpx">Save</text>
+  </view>
+
+</view>
+<!--文本框-->
+<view class='row' id="textareawrap" catchtap="onFocus">
+        <textarea  bindinput="bind" fixed="true" class='text'  maxlength="5000000"  
+        focus="true" name="content" placeholder="点击添加文本"   >
+<!--背景图-->
+ </textarea>
+     </view>
+

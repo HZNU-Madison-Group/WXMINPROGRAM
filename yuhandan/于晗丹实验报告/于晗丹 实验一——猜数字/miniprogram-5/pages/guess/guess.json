@@ -1,0 +1,5 @@
+{
+  "usingComponents": {},
+  "navigationBarTitleText": "Guess Game",
+  "onReachBottomDistance":200
+}

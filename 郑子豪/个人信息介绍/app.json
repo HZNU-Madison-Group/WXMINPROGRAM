@@ -1,0 +1,32 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/info",
+    "pages/info/info",
+    "pages/Login/Login"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "pages/pic/black/shuzi1.png",
+        "selectedIconPath": "pages/pic/red/shuzi1.png"
+      },
+      {
+        "pagePath": "pages/info/info",
+        "text": "个人信息",
+        "iconPath": "pages/pic/black/shuzi2.png",
+        "selectedIconPath": "pages/pic/red/shuzi2.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

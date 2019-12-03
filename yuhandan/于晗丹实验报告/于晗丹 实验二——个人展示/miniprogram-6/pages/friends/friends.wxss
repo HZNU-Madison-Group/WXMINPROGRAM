@@ -1,0 +1,17 @@
+/* pages/friends/friends.wxss */
+.friends1{
+  font-size: 20px;
+  position: absolute;
+  top:15px;
+  right: 0
+}
+.person1{
+  height: 110px;
+  width:130px
+}
+.friends2{
+  font-size: 20px;
+  position: absolute;
+  top:140px;
+  right: 0
+}

@@ -1,0 +1,23 @@
+<!--pages/initial/initial.wxml-->
+<view wx:for='{{diary}}' >
+  <view  class="image-parent" >
+  <view class="child">
+    <text style="font-size:1.5rem;color:#0AAAF6" >{{item.problem}}</text>
+    <text style="font-size:0.3rem;color:#0AAAF6;margin-left:15rpx">{{item.createtime}}</text>
+    </view>
+    </view>
+     <view  class="image-parent1" >
+    <image id='{{item.id}}' bindtap="focusButn" src="/images/pinglun.png" style="height:50rpx;width:50rpx;margin-right:15rpx"></image>
+     <image id='{{item.id}}' bindtap="look" src="/images/xiaoxi.png" style="height:70rpx;width:70rpx;margin-right:25rpx; align"></image>
+  </view>
+  <view class="parent"></view>
+</view>
+
+ 
+<view class='commentInputView' style='bottom:{{height == ""?0:height}}px;' hidden='{{!isInput}}'>
+ 
+  <view  class='commentInput'>
+    <input bindinput="bind" class='input' placeholder="请输入评论内容" maxlength='-1' value="{{value}}" bindfocus="inputFocus" focus='{{focusInput}}' bindblur="inputBlur"></input>
+  </view>
+  <button bindtap="save" class='send'>发送</button>
+</view>
