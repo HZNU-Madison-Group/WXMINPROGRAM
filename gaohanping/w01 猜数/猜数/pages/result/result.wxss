@@ -1,0 +1,26 @@
+/* pages/result/result.wxss */
+
+.tp {
+  width: 210rpx;
+  height: 210rpx;
+  border-radius: 15%;
+  margin: 5rpx;
+  font-size: 30px;
+}
+
+.title {
+  height: 200rpx;
+  line-height: 200rpx;
+  display: block;
+  font-size: 40px;
+}
+
+.display {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  padding: 100rpx 0;
+  box-sizing: border-box;
+}

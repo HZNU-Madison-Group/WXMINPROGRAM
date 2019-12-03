@@ -1,0 +1,22 @@
+<!--pages/homepage/homepage.wxml-->
+<view class="wrapper">
+  <view>
+    <view class="image">
+      <image style="border-radius:30%;"></image>
+    </view>
+    <view class='top'>
+      <open-data type="userAvatarUrl"></open-data>
+    </view>
+    <view class="text">
+      <open-data type="userNickName"></open-data>
+    </view>
+  </view>
+</view>
+<view class="content">
+  <navigator url="/pages/myinformation/myinformation" open-type="switchTab" hover-class="other-navigator-hover">个人信息</navigator>
+</view>
+<view class="divLine"></view>
+<view class="content">
+  <text>我的客服</text>
+</view>
+<view class="divLine"></view>

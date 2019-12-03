@@ -1,0 +1,18 @@
+<!--pages/result/result.wxml-->
+<view class="display">
+  <view>
+    <text class="title">Congratulation!</text>
+  </view>
+  <view class="title">
+    <text>您共猜了{{counts}}次</text>
+  </view>
+  <view>
+    <image src="/images/congratulation/gx.png" class="tp"></image>
+    <image src="/images/congratulation/ty.png" class="tp"></image>
+  </view>
+  <view>
+    <image src="/images/congratulation/zh.png" class="tp"></image>
+    <image src="/images/congratulation/zh.png" class="tp"></image>
+    <image src="/images/congratulation/zh.png" class="tp"></image>
+  </view>
+</view>

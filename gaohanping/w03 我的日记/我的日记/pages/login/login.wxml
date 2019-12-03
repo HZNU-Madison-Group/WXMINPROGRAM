@@ -1,0 +1,24 @@
+<!--pages/login/login.wxml-->
+<view class="wrapper">
+  <view>
+    <view class="image">
+      <image style="border-radius:30%;"></image>
+    </view>
+    <view class='top'>
+      <open-data type="userAvatarUrl"></open-data>
+    </view>
+    <view class="text">
+      <open-data type="userNickName"></open-data>
+    </view>
+  </view>
+</view>
+<view class="content">账号：</view>
+<view>
+  <input style="border:1px solid black" class="weui-input" maxlength="20" bindinput="bindusername" />
+</view>
+<view class="content">密码：</view>
+<view>
+  <input password="true" style="border:1px solid black" class="weui-input" maxlength="20" bindinput="bindpassword" />
+</view>
+<image style="width:1px; height:1px;" bindload="imageLoad" src='/images/kongbai.png'></image>
+<button type="primary" bindtap="clicktoreg"> 登陆 </button>
