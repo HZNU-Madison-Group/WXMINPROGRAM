@@ -1,0 +1,32 @@
+{
+  "pages": [
+    "pages/guess/guess",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/result/result"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "index",
+        "iconPath": "images/black/shouye.png",
+        "selectedIconPath": "images/red/shouye.png"
+      },
+      {
+        "pagePath": "pages/guess/guess",
+        "text": "game",
+        "iconPath": "images/black/youxi.png",
+        "selectedIconPath": "images/red/youxi.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap90.json"
+}

@@ -1,0 +1,10 @@
+<!--pages/result/result.wxml-->
+<view>
+ 
+<input />
+  
+  <text>您一共猜了{{count}}次</text>
+ 
+
+  
+</view>

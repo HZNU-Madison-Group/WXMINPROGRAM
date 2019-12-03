@@ -1,0 +1,16 @@
+<!--pages/guess/guess.wxml-->
+<view>
+  <view>
+    <image id="0" bindtap="click" src="/images/{{d[0]}}/shuzi0.png"class="tp"></image>
+    <image id="1" bindtap="click" src="/images/{{d[1]}}/shuzi1.png"class="tp"></image>
+    <image id="2" bindtap="click" src="/images/{{d[2]}}/shuzi2.png"class="tp"></image>
+    <image id="3" bindtap="click" src="/images/{{d[3]}}/shuzi3.png"class="tp"></image>
+    <image id="4" bindtap="click" src="/images/{{d[4]}}/shuzi4.png"class="tp"></image>
+    <image id="5" bindtap="click" src="/images/{{d[5]}}/shuzi5.png"class="tp"></image>
+    <image id="6" bindtap="click" src="/images/{{d[6]}}/shuzi6.png"class="tp"></image>
+    <image id="7" bindtap="click" src="/images/{{d[7]}}/shuzi7.png"class="tp"></image>
+    <image id="8" bindtap="click" src="/images/{{d[8]}}/shuzi8.png"class="tp"></image>
+    <image id="9" bindtap="click" src="/images/{{d[9]}}/shuzi9.png"class="tp"></image>
+  </view>
+
+</view>
