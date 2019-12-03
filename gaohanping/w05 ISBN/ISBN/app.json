@@ -1,0 +1,31 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/add/add",
+    "pages/test/test",
+    "pages/search/search"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "主页",
+        "iconPath": "images/tu/people.png",
+        "selectedIconPath": "images/tu/people.png"
+      },
+      {
+        "pagePath": "pages/test/test",
+        "text": "图书管理",
+        "iconPath": "images/tu/book.png",
+        "selectedIconPath": "images/tu/book.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

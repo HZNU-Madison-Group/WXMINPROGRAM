@@ -1,0 +1,35 @@
+/* pages/homepage/homepage.wxss */
+
+.wrapper {
+  background: #07f184;
+  padding: 25px 0;
+}
+
+.image {
+  width: 100px;
+  height: 30px;
+}
+
+.text {
+  text-align: center;
+  color: #fff;
+}
+
+.content {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin: 20rpx;
+}
+
+.top {
+  width: 250rpx;
+  height: 250rpx;
+  margin: 0 auto;
+}
+
+.divLine {
+  background: #e0e3da;
+  width: 100%;
+  height: 5rpx;
+}

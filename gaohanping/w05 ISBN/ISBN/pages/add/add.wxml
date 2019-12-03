@@ -1,0 +1,42 @@
+<!--pages/add/add.wxml-->
+<view class="view">
+  <view class="divLine"></view>
+  <view class="divLine"></view>
+  <view class="title">
+    <text>图书录入</text>
+  </view>
+  <view class="divLine"></view>
+  <view class="divLine"></view>
+
+  <view class='tp'>
+    <text class='left'>ISBN：</text>
+    <text class='right'>{{isbn}}</text>
+  </view>
+  <view class="divLine"></view>
+
+  <view class='tp'>
+    <text class='left'>书名：</text>
+    <text class='right'>{{title}}</text>
+  </view>
+  <view class="divLine"></view>
+
+  <view class='tp'>
+    <text class='left'>作者：</text>
+    <text class='right'>{{author}}</text>
+  </view>
+  <view class="divLine"></view>
+
+  <view class='tp'>
+    <text class='left'>出版社：</text>
+    <text class='right'>{{publisher}}</text>
+  </view>
+  <view class="divLine"></view>
+
+
+  <view class='tp'>
+    <text class='left'>价格：</text>
+    <text class='right'>{{price}}</text>
+  </view>
+  <view class="divLine"></view>
+
+</view>

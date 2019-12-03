@@ -1,0 +1,49 @@
+/* pages/add/add.wxss */
+
+.tp {
+  height: 60rpx;
+  margin: 40rpx;
+  font-size: 15px;
+  display: flex;
+}
+
+.title {
+  height: 180rpx;
+  line-height: 200rpx;
+  display: flex;
+  font-size: 25px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.top {
+  width: 250rpx;
+  height: 250rpx;
+  margin: 0 auto;
+}
+
+.nickname {
+  margin-bottom: 10rpx;
+  text-align: center;
+}
+
+.left {
+  display: flex;
+  justify-content: flex-start;
+  flex-grow: 1;
+}
+
+.right {
+  display: flex;
+  justify-content: flex-end;
+  flex-grow: 1;
+  color: rgba(58, 53, 88, 0.938);
+}
+
+.divLine {
+  background: #0f0f0f;
+  width: 100%;
+  height: 5rpx;
+}
