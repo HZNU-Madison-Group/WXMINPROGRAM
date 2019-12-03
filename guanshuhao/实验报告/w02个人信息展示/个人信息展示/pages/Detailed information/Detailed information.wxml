@@ -1,0 +1,72 @@
+<!--pages/detailed information/detailed information.wxml-->
+<view  class='user_addr_title'>我的爱好</view>
+<view class="appointment">
+  <view class="app-moduler">
+    <view class="mod-item">
+      <view class="mod-signup">
+      </view>
+      <view class="mod-img">
+        <image src="/images/2c2c2c/唱歌.png" class="mod-image"></image>
+      </view>
+      <view class="mod-title">
+         <text>唱歌</text>  
+      </view>
+      <view class="mod-info">
+        <view class="mod-icon">
+          <!-- <image src="{{iconsrc}}" class="icon"></image> -->
+        </view>
+      </view>
+    </view>
+    
+    <view class="mod-item">
+      <view class="mod-signup">       
+      </view>
+      <view class="mod-img">
+        <image src="/images/2c2c2c/跳舞.png" class="mod-image"></image>
+      </view>
+      <view class="mod-title">
+         <text>跳舞</text>  
+      </view>
+      <view class="mod-info">
+          
+        <view class="mod-icon">
+          <!-- <image src="{{iconsrc}}" class="icon"></image> -->
+        </view>
+      </view>
+    </view>
+
+    <view class="mod-item">
+      <view class="mod-signup">
+        <!-- <image src="{{signupimg}}"></image> -->
+      </view>
+      <view class="mod-img">
+        <image src="/images/2c2c2c/rap.png" class="mod-image"></image>
+      </view>
+      <view class="mod-title">
+         <text>说唱</text>  
+      </view>
+      <view class="mod-info">
+        <view class="mod-icon">
+          <!-- <image src="{{iconsrc}}" class="icon"></image> -->
+        </view>
+      </view>
+    </view>
+
+    <view class="mod-item">
+      <view class="mod-signup">
+        <image src="{{signupimg}}"></image>
+      </view>
+      <view class="mod-img">
+        <image src="{{imgsrc}}" class="mod-image"></image>
+      </view>
+      <view class="mod-title">
+         <!-- <text>标题标题标题标题标题</text>   -->
+      </view>
+      <view class="mod-info">
+        <view class="mod-icon">
+          <image src="{{iconsrc}}" class="icon"></image>
+        </view>
+      </view>
+    </view>
+   </view>
+</view>

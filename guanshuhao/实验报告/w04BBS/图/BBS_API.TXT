@@ -1,0 +1,10 @@
+
+http://172.22.130.33/index.php/Ajaxapi/Ajaxapi/browserroot
+http://172.22.130.33/index.php/Ajaxapi/Ajaxapi/browsereplybyid/pid/1
+http://172.22.130.33/index.php/Ajaxapi/Ajaxapi/createproblem/userid/1/problem/fksadkfsldhfjksdhfkdfj
+http://172.22.130.33/index.php/Ajaxapi/Ajaxapi/reply/userid/1/problem/123456789/parentid/1
+http://172.22.130.33/index.php/Ajaxapi/Ajaxapi/browsereplybyid/pid/79
+看pid是79的回复
+
+http://172.22.130.33/index.php/Ajaxapi/Ajaxapi/deleteproblembyid/userid/1/pid/1
+
