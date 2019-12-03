@@ -1,0 +1,18 @@
+<!--pages/saoma/saoma.wxml-->
+<view class="container">
+  <view class="login-icon">
+    <image class="login-img" src="../image/loginLog.jpg"></image>
+  </view>
+  <view class="login-from">
+ 
+
+ 
+    <!--按钮-->
+    <view class="loginBtnView">
+      <button class="loginBtn" type="primary"  bindtap="saomabutton">扫码</button>
+      <button class="loginBtn" type="primary"  bindtap="rukubutton">入库</button>
+      <button class="loginBtn" type="primary"  bindtap="chaxunbutton">查询</button>
+    </view>
+
+  </view>
+</view>
