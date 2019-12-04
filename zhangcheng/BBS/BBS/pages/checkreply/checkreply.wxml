@@ -1,0 +1,21 @@
+<view wx:for="{{message}}" >
+<view class="image-parent">
+<view  class="col-4 font-break">ID:{{item.id}}</view>
+<view>Problem:{{item.problem}}</view>
+<view>UserID:{{item.userid}}</view>
+<view>Createtime:{{item.createtime}}</view>
+<view class='btns'>
+ <button bindtap='checkreply' id="{{item.id}}">
+    <view>check</view>
+ </button>
+ <button bindtap='reply' id="{{item.id}}">
+    <view>reply</view>
+ </button>
+ <view wx:if="{{item.userid==userid}}">
+ <button bindtap='del' data-s="{{item.id}}">
+ <view>delete</view>
+ </button>
+ </view>
+</view>
+</view>
+</view>
