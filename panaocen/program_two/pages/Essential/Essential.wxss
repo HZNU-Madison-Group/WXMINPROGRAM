@@ -1,0 +1,9 @@
+/* pages/Essential/Essential.wxss */
+.mod-item{
+ width:46%;
+ height:300rpx;
+ float: left;
+ margin-left:20rpx;
+ margin-top:40rpx;
+ position: relative;
+}

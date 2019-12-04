@@ -1,0 +1,7 @@
+<!--pages/result/result.wxml-->
+<view>
+<text>--you succeed--</text>
+<view>
+<text>you have test {{count}} tinmes</text>
+</view>
+</view>

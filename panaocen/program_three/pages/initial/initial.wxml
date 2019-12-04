@@ -1,0 +1,16 @@
+<!--pages/initial/initial.wxml-->
+<!--write-->
+<view class="image-parent" bindtap="write">
+<image  src="/images/images/icons/composeHL.png" class="tp"></image>
+<text style="font-size:2rem;">写日记</text>
+</view>
+<!--search-->
+<view class="image-parent" bindtap="search">
+<image src="/images/images/tabbar/text.png" class="tp"></image>
+<text style="font-size:2rem;">搜素日记</text>
+</view>
+<!--record-->
+<view class="image-parent" bindtap="record">
+<image src="/images/images/icons/mineHL.png" class="tp"></image>
+<text style="font-size:2rem;">我的日记</text>
+</view>

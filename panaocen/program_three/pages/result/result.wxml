@@ -1,0 +1,14 @@
+<!--pages/add/add.wxml-->
+
+<view class="page-section">
+  <view class="weui-cells__title">username</view>
+  <view>
+    <input style="border:1px solid red" class="weui-input" maxlength="10" bindinput="bindusername" />
+  </view>
+  <view class="weui-cells__title">password</view>
+  <view>
+    <input password="true" style="border:1px solid red"   class="weui-input" maxlength="10" bindinput="bindpassword" />
+  </view>
+<button type="default"   bindtap="clicktoreg" > Register </button>
+
+</view>

@@ -1,0 +1,29 @@
+{
+  "pages": [
+    "pages/Essential/Essential",
+    "pages/logs/logs",
+    "pages/index/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "navigationBarTitleText": "我的信息",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/Essential/Essential",
+        "text": "基本信息",
+        "iconPath": "image/xinxi.png",
+        "selectedIconPath": "image/xinxi.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "详细信息",
+        "iconPath": "image/xiangxi.png",
+        "selectedIconPath": "image/xiangxi.png"
+      }]
+  }
+}

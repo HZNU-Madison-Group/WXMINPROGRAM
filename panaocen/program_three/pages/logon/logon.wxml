@@ -1,0 +1,17 @@
+<!--pages/logon/logon.wxml-->
+
+
+<view class="page-section">
+  <view class="weui-cells__title">username</view>
+  <!--用户名输入框设置-->
+  <view>
+    <input style="border:1px solid red"  maxlength="10" bindinput="bindusername" />
+  </view>
+  <view class="weui-cells__title">password</view>
+  <view>
+  <!--用户密码输入框设置-->
+    <input password="true" style="border:1px solid red"   class="weui-input" maxlength="10" bindinput="bindpassword" />
+  </view>
+<!--按钮设置-->
+<button type="default"   bindtap="clicktolog" > Login </button>
+</view>

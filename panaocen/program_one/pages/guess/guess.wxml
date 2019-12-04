@@ -1,0 +1,11 @@
+<!--pages/guess/guess.wxml-->
+<view>
+
+<view>
+
+<image id = "1" bindtap="click" src = "/images/{{d[1]}}/shuzi{{te}}.png" class="tp"> </image>
+</view>
+<button bindtap="start">start </button>
+<button bindtap="pause">pause</button>
+<button bindtap="stop">stop</button>
+</view>

@@ -1,0 +1,4 @@
+/* pages/add/add.wxss */
+.weui-cells__title{
+  font-size: 200;
+  text-align: center}

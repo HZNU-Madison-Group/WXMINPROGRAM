@@ -1,0 +1,17 @@
+/* pages/guess/guess.wxss */
+.t1{
+  color: #f40;
+  font-size: 20px
+}
+.t2{
+  color: rgb(34, 202, 152);
+  font-size: 20px
+}
+.tp{
+  width: 230rpx;
+  height: 230rpx;
+  border: 1px solid #f40;
+  border-radius: 15%;
+  margin: 5rpx;
+
+}
