@@ -1,0 +1,20 @@
+/* pages/result/result.wxss */
+.t1{
+position:absolute; 
+left:100px; 
+top:150px; 
+
+background-color:rgba(0, 0, 0, 0.514);
+border-width:5px;
+text-align:center;
+
+}
+.t2{
+text-align:center;
+
+}
+.t3{
+text-align:center;
+
+
+}
