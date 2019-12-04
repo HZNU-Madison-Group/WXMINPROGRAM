@@ -1,0 +1,25 @@
+<!--index.wxml-->
+<swiper class='t1'>
+  <swiper-item >
+    <image src="/pages/images/one.jpg" mode="aspectFill" />    
+  </swiper-item>
+    <swiper-item >
+    <image src="/pages/images/two.png" mode="aspectFill" />    
+  </swiper-item>
+</swiper>
+
+<view class="t2">
+  <view class="tt2">
+    <navigator url="/pages/write/write">
+    <image src='/pages/images/write.png' />
+    <text>写日记</text>
+    </navigator>
+    
+  </view>
+  <view class="tt2">
+  <navigator url="/pages/see/see">
+    <image src='/pages/images/see.png' />
+    <text>查看日记</text>
+    </navigator>
+  </view>
+</view>

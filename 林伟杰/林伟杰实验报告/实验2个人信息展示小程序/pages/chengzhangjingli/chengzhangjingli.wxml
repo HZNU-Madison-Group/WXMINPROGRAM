@@ -1,0 +1,9 @@
+<!--pages/chengzhangjingli/chengzhangjingli.wxml-->
+<view class="container" style="padding:0rpx">
+  <scroll-view scroll-y="true" style="height: 1200rpx;" bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll">
+    <view wx:for="{{dataList}}" wx:key="id">
+      <text decode="true" >&nbsp;&nbsp;&nbsp;&nbsp;{{item}}</text>
+    </view>
+  </scroll-view>
+
+</view>

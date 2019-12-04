@@ -1,0 +1,30 @@
+<view class="max">
+  <view class="headline1">写日记</view>
+
+  <view class="headline1-1">用户id:{{authorid}}</view>
+  <view class="headline1-1">用户名:{{username}}</view>
+
+
+  <view class="headline1-1">内容</view>
+  
+ 
+  <textarea  bindinput="write_nr" fixed="true"  maxlength="5000000"  
+        focus="true" name="content" placeholder="点击添加文本"   />
+  
+  <view class="headline1-1">心情</view>
+  <view class="headline1-1">
+    <checkbox-group bindchange="checkboxChange">
+    <label class="checkbox" wx:for="{{items}}">
+      <checkbox value="{{item.name}}" checked="{{item.checked}}" />{{item.value}}
+    </label>
+  </checkbox-group>
+  </view>
+
+
+
+
+  <view>
+    <button class="button" bindtap="confirm">确定</button>
+  </view>
+
+</view>

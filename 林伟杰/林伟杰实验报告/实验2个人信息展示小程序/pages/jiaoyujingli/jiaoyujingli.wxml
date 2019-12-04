@@ -1,0 +1,10 @@
+<!--pages/jiaoyujingli/jiaoyujingli.wxml-->
+<view class="container" style="padding:0rpx">
+  <scroll-view scroll-y="true" style="height: 1200rpx;" bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll">
+    <view wx:for="{{dataList}}" wx:key="id">
+      <image src="{{item.imagePath}}"></image>
+      <text>{{item.text}}</text>
+    </view>
+  </scroll-view>
+
+</view>

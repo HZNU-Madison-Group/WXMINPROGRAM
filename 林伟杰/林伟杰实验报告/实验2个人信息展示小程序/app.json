@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/user/user",
+    "pages/login/login",
+    "pages/jibenxinxi/jibenxinxi",
+    "pages/xingquaihao/xingquaihao",
+    "pages/xinggetezheng/xinggetezheng",
+    "pages/jinengtechang/jinengtechang",
+    "pages/jiaoyujingli/jiaoyujingli",
+    "pages/gongzuojingli/gongzuojingli",
+    "pages/peixunjingli/peixunjingli",
+    "pages/chengzhangjingli/chengzhangjingli",
+    "pages/weilaijihua/weilaijihua"
+  ],
+  "window": {
+    "backgroundColor": "#bcc0c9",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#3a4851",
+    "navigationBarTitleText": "个人信息展示",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#444",
+    "backgroundColor": "#fff",
+    "borderStyle": "black",
+    "list": [
+      
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/zhuye.png",
+        "selectedIconPath": "images/zhuye-active.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "images/my.png",
+        "selectedIconPath": "images/my-active.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

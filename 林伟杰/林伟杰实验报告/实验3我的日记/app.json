@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/tongji/tongji",
+    "pages/user/user",
+    "pages/reg/reg",
+    "pages/login/login",
+    "pages/write/write",
+    "pages/see/see",
+    "pages/tixin/tixin"
+  ],
+  "window": {
+    "backgroundColor": "#bcc0c9",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#3a4851",
+    "navigationBarTitleText": "我的日记",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#444",
+    "backgroundColor": "#fff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "pages/images/index.png",
+        "selectedIconPath": "pages/images/index.png"
+      },
+      {
+        "pagePath": "pages/tongji/tongji",
+        "text": "统计",
+        "iconPath": "pages/images/tongji.png",
+        "selectedIconPath": "pages/images/tongji.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "pages/images/my.png",
+        "selectedIconPath": "pages/images/my.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

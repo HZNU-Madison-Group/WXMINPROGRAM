@@ -1,0 +1,39 @@
+<view class="max">
+  <view>
+    <view class="headline1">查看日记</view>
+
+    <view class="headline1-1">用户id:{{authorid}}</view>
+    <view class="headline1-1">用户名:{{username}}</view>
+
+
+
+
+    <view class="headline1-1">关键字查询(输入日记内容的关键字)</view>
+    <view>
+      <input class="box1-1" bindinput="seedairy_searchstr" />
+    </view>
+    <view>
+      <button class="button" bindtap="confirm">确定</button>
+    </view>
+
+    <view class="headline1-1">查询结果</view>
+    <view>
+      <view wx:for="{{searchresult}}" wx:key="x">
+        <view>
+        <view>序号:{{item.id}} 日期:{{item.sj}}</view>
+        <view >
+        <text class="nr">内容:{{item.nr}}</text>
+        </view>
+        <view>心情:{{item.xq}}</view>
+        </view>
+     
+        
+      </view>
+
+
+    </view>
+
+  </view>
+
+
+</view>
