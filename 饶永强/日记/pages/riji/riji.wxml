@@ -1,0 +1,11 @@
+<!--pages/riji/riji.wxml-->
+<!--背景-->
+<image class="des-image" src="{{image}}"></image>
+
+
+<!--添加按钮-->
+
+<button bindtap="newBtnDown">写日记</button>
+<button bindtap="newBtnDown2">查看日记</button>
+
+

@@ -1,0 +1,31 @@
+<!--pages/write/write.wxml-->
+<view class='ServiceCenter'>
+
+
+  <view class='item'>
+    <text class="left">作者</text>
+    <input style="border:1px solid red" class="weui-input" maxlength="10" bindinput="bindauthorid" />
+  </view>
+
+
+  <view class='item'>
+    <text class="left">心情</text>
+    <input style="border:1px solid red" class="weui-input" maxlength="10" bindinput="bindxq" />
+  </view>
+
+
+
+  <view class="contentView">
+    <view class="textarea_title">内容</view>
+    <view class="textarea_bg">
+      <textarea bindinput="bindnr" style="height: 4em" maxlength="-1" />
+    </view>
+  </view>
+
+
+
+  <button bindtap="newBtnDown">保存</button>
+
+
+
+</view>

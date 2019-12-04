@@ -1,0 +1,13 @@
+<!--index.wxml-->
+<view class='ServiceCenter'>
+  <view class="weui-cells__title">用户名</view>
+  <view>
+    <input style="border:1px solid red" class="weui-input" maxlength="10" bindinput="bindusername" />
+  </view>
+  <view class="weui-cells__title">密码</view>
+  <view>
+    <input password="true" style="border:1px solid red"   class="weui-input" maxlength="10" bindinput="bindpassword" />
+  </view>
+ <button type="default"   bindtap="clicktoreg" > 注册</button>
+
+</view>
