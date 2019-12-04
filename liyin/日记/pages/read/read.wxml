@@ -1,0 +1,23 @@
+<!--pages/read/read.wxml-->
+<view>
+  <view>请输入要查询的id</view>
+  <view>
+    <input style="border:1px solid red" class="weui-input" maxlength="10" bindinput="bindauthorid" />
+  </view>
+  <view>请输入要查询的关键字（可不填）</view>
+  <view>
+    <input style="border:1px solid red" class="weui-input" maxlength="10" bindinput="bindsearchstr" />
+  </view>
+  <view>
+    <button class="button" bindtap="clickread"> 查询 </button>
+  </view>
+  <view wx:for="{{riji}}" wx:key="x">
+    <view>
+      <view>序号:{{item.id}}  日期：{{item.sj}}</view>
+      <view>内容:{{item.nr}}</view>
+      <view>心情:{{item.xq}}</view>
+    </view>
+  </view>
+
+
+</view>

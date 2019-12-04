@@ -1,0 +1,33 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/denglu/denglu",
+    "pages/zhuce/zhuce",
+    "pages/read/read",
+    "pages/write/write"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#116699",
+    "navigationBarTitleText": "日记薄",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/changyong/shouye.png",
+        "selectedIconPath": "images/changyong/shouye.png"
+      },
+      {
+        "pagePath": "pages/zhuce/zhuce",
+        "text": "日记",
+        "iconPath": "images/changyong/jieguo.png",
+        "selectedIconPath": "images/changyong/jieguo.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
