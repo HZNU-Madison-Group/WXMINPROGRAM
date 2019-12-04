@@ -1,0 +1,16 @@
+<!--index.wxml-->
+<view class="page-section">
+
+  <image src='/images/changyong/3.png'></image>
+
+  <button type="default" style="opacity: {{opacity}};color: white; background-color: #ff8719;" bindtap="clicksm"> 点击扫码 </button>
+
+  <view style='height:40px;'></view>
+
+  <button type="default" style="opacity: {{opacity}};color: white; background-color: #ff8719;" bindtap="clickrk"> 点击入库 </button>
+
+  <view style='height:40px;'></view>
+  <button type="default" style="opacity: {{opacity}};color: white; background-color: #ff8719;" bindtap="clickcx"> 查询书籍 </button>
+  <view style='height:30px;'></view>
+
+</view>
