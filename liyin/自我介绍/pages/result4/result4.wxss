@@ -1,0 +1,12 @@
+/* pages/result4/result4.wxss */
+.container4{
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center
+}
+.fff{
+  color: rgb(195, 0, 255);
+  font-size: 35px;
+}

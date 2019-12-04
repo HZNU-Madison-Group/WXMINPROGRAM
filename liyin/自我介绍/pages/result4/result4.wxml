@@ -1,0 +1,4 @@
+<!--pages/result4/result4.wxml-->
+<view class='container4'>
+<text class='fff'>{{d[m]}}</text>
+</view>
