@@ -1,0 +1,10 @@
+/* pages/add/add.wxss */
+.td {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.parent{
+    height: 100rpx;
+ background-color: rgb(256,256,256)
+}
