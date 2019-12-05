@@ -1,0 +1,7 @@
+<!--pages/mood/mood.wxml-->
+<view>
+<image id="1" bindtap="click" class="mood" src="/images/mood/{{c[1]}}.png"></image>
+<image id="2" bindtap="click" class="mood" src="/images/mood/{{c[0]}}.png"></image>
+<image id="3" bindtap="click" class="mood" src="/images/mood/{{c[2]}}.png"></image>
+
+</view>

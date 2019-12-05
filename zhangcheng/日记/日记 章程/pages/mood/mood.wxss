@@ -1,0 +1,9 @@
+/* pages/mood/mood.wxss */
+
+.mood{
+  width: 230rpx;
+  height: 200rpx;
+  border: 1px solid rgb(221, 213, 210);
+  border-radius: 15%;
+  margin: 5rpx
+}

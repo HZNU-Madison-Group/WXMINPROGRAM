@@ -1,0 +1,8 @@
+<view>
+<view>
+<text class="tp">恭喜您答对了!</text>
+</view>
+<view>
+<text class="tp">您一共尝试了{{count}}次。</text>
+</view>
+</view>

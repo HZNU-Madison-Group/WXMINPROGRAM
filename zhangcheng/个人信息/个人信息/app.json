@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/timetable/timetable",
+    "pages/test/test"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "个人信息",
+        "iconPath": "pages/image/gerenxinxi.png",
+        "selectedIconPath": "pages/image/gerenxinxi1.png"
+      },
+      {
+        "pagePath": "pages/timetable/timetable",
+        "text": "个人课表",
+        "iconPath": "pages/image/kebiaoxinxi.png",
+        "selectedIconPath": "pages/image/kebiaoxinxi1.png"
+      },
+      {
+        "pagePath": "pages/test/test",
+        "text": "个人考试",
+        "iconPath": "pages/image/考试.png",
+        "selectedIconPath": "pages/image/考试1.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap66.json"
+}

@@ -1,0 +1,24 @@
+/* pages/search/search.wxss */
+.parent{
+  height: 300rpx;
+  margin-top: 500;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  
+}
+.weui-cells__title{
+  font-size: 200;
+  text-align: center
+}
+.image-parent{
+  height: 200rpx; 
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border: 2rpx solid 
+}
