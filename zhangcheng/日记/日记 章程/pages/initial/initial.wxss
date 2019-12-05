@@ -1,0 +1,14 @@
+/* pages/initial/initial.wxss */
+.image-parent{
+  height: 390rpx; 
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border: 2rpx solid rgb(0, 0, 0)
+}
+.tp{
+  width:200rpx;
+  height:200rpx
+}
