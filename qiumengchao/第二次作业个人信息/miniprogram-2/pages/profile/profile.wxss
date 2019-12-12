@@ -1,0 +1,38 @@
+/* pages/Personal profile/Personal profile.wxss */
+.IndexList view{
+    border-bottom: 1px solid #F5F5F5;
+    width: 84%;
+    display:  block;
+    margin: 0 8%;
+    color: #333;
+    height: 100rpx;
+    line-height: 100rpx
+}
+.IndexList image.nameIco{
+  width: 5%;
+  margin-right: 15rpx
+}
+.IndexList image.idIco{
+  width: 5%;
+  margin-right: 15rpx
+}
+.IndexList image.telIco{
+  width: 5%;
+  margin-right: 15rpx
+}
+.IndexList image.xueyuanIco{
+  width: 5%;
+  margin-right: 15rpx
+}
+.IndexList image.eIco{
+  width: 5%;
+  margin-right: 15rpx
+}
+.IndexList image.dizhiIco{
+  width: 5%;
+  margin-right: 15rpx
+}
+.IndexList image.xybIco{
+  width: 5%;
+  margin-right: 15rpx
+}

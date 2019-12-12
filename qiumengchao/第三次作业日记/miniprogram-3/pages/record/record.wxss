@@ -1,0 +1,9 @@
+.image-parent{
+  height: 200rpx; 
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border: 2rpx solid 
+}/* pages/record/record.wxss */

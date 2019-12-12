@@ -1,0 +1,23 @@
+<!--pages/profile/profile.wxml-->
+<view class="IndexList">
+<view>
+    <image src="/images/id.png" class="idIco" mode="widthFix"></image>
+    <text class="id">身份证号码 / ********</text>
+  </view>
+  <view bindtap="callmeTap">
+    <image src="/images/tel.png" class="telIco" mode="widthFix"></image>
+    <text class="tel">电话 / ********</text>
+  </view>
+  <view>
+    <image src="/images/xueyuan.png" class="xueyuanIco" mode="widthFix"></image>
+    <text class="学院">学院 / ********</text>
+  </view>
+  <view>
+    <image src="/images/email.png" class="eIco" mode="widthFix"></image>
+    <text class="email">邮件 / ********</text>
+  </view>
+  <view>
+    <image src="/images/dizhi.png" class="dizhiIco" mode="widthFix"></image>
+    <text class="dizhi">地址 / ********</text>
+  </view>
+  </view>

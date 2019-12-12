@@ -1,0 +1,31 @@
+{
+  "pages": [
+    "pages/Personal profile/Personal profile",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/profile/profile"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/Personal profile/Personal profile",
+        "text": "基本信息",
+        "iconPath": "images/name.png",
+        "selectedIconPath": "images/name.png"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "详细信息",
+        "iconPath": "images/id.png",
+        "selectedIconPath": "images/id.png"
+      }
+    ]
+  }
+}

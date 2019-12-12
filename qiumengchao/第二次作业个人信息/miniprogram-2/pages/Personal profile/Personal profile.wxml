@@ -1,0 +1,24 @@
+<loading hidden="{{loadingHide}}">
+  {{loadingText}}
+</loading>
+
+<view class="IndexHome">
+  <image src="/images/1.jpg" mode="widthFix" class="img"></image>
+</view>
+<view class="IndexList">
+  <view>
+    <image src="/images/name.png" class="nameIco" mode="widthFix"></image>
+    <text class="name">姓名 / 邱梦超</text>
+  </view>
+  <view>
+    <image src="/images/id.png" class="idIco" mode="widthFix"></image>
+    <text class="id">学号 / 2017210218053</text>
+  </view>
+  <view>
+    <image src="/images/xueyuan.png" class="xueyuanIco" mode="widthFix"></image>
+    <text class="班级">班级 / 统计171</text>
+  </view>
+</view>
+<view class="footer">
+@hzsfdx
+</view>

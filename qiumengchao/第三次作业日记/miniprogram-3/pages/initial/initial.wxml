@@ -1,0 +1,16 @@
+<!--pages/initial/initial.wxml-->
+<!--write-->
+<view class="image-parent" bindtap="write">
+<image  src="/images/write.png" class="tp"></image>
+<text style="font-size:2rem;">Write Diary</text>
+</view>
+<!--search-->
+<view class="image-parent" bindtap="search">
+<image src="/images/search.png" class="tp"></image>
+<text style="font-size:2rem;">Search Diary</text>
+</view>
+<!--record-->
+<view class="image-parent" bindtap="record">
+<image src="/images/record.png" class="tp"></image>
+<text style="font-size:2rem;">My Diary</text>
+</view>
