@@ -1,0 +1,93 @@
+/* pages/search/search.wxss */
+
+.goodbutton {
+  margin-top: 8px;
+  width: 80%;
+  height: 80rpx;
+  font-size: 15px;
+  background-color: rgb(160, 180, 167);
+  color: white;
+  border-radius: 98rpx;
+  background: bg_red;
+}
+
+/* 按下变颜色 */
+
+.hover {
+  background: rgb(238, 76, 12);
+}
+
+.search {
+  width: 98%;
+  height: 90rpx;
+}
+
+.search_arr {
+  border: 1px solid #d0d0d0;
+  border-radius: 10rpx;
+  margin-left: 20rpx;
+}
+
+.search_arr input {
+  margin-left: 60rpx;
+  height: 60rpx;
+  border-radius: 5px;
+}
+
+.searchcion {
+  margin: 10rpx 10rpx 10rpx 10rpx;
+  position: absolute;
+  left: 25rpx;
+  z-index: 2;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+}
+
+.tp {
+  height: 60rpx;
+  margin: 40rpx;
+  font-size: 15px;
+  display: flex;
+}
+
+.title {
+  height: 100rpx;
+  line-height: 150rpx;
+  display: flex;
+  font-size: 15px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.top {
+  width: 250rpx;
+  height: 250rpx;
+  margin: 0 auto;
+}
+
+.nickname {
+  margin-bottom: 10rpx;
+  text-align: center;
+}
+
+.left {
+  display: flex;
+  justify-content: flex-start;
+  flex-grow: 1;
+}
+
+.right {
+  display: flex;
+  justify-content: flex-end;
+  flex-grow: 1;
+  color: rgba(49, 20, 212, 0.938));
+}
+
+.divLine {
+  background: #0f0f0f;
+  width: 100%;
+  height: 5rpx;
+}

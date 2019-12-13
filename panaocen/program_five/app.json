@@ -1,0 +1,31 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/add/add",
+    "pages/one/one",
+    "pages/search/search"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "主页",
+        "iconPath": "images/tu/wode.png",
+        "selectedIconPath": "images/tu/wode.png"
+      },
+      {
+        "pagePath": "pages/one/one",
+        "text": "图书管理",
+        "iconPath": "images/tu/xinjian.png",
+        "selectedIconPath": "images/tu/xinjian.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

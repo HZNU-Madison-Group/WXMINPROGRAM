@@ -1,0 +1,5 @@
+<!--pages/one/one.wxml-->
+<view class='userdemo'>
+  <button class='goodbutton' hover-class="hover" bindtap='add'>录入</button>
+  <button class='goodbutton' hover-class="hover" bindtap='search'>查询</button>
+</view>
