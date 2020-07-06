@@ -1,0 +1,11 @@
+<!--pages/tongji/tongji.wxml-->
+<view class="max">
+  <view>总日记篇数：{{sumdairy}}</view>
+  <view wx:for="{{allresult}}" wx:key="x">
+    <view>日记编号：{{item.id}}</view>
+    <view>日记正文字数：{{item.nr.length}}</view>
+  </view>
+  <view>心情统计</view>
+  <view>好：{{sumxqgood}}次,一般：{{sumxqgeneral}}次,不好：{{sumxqbed}}次</view>
+
+</view>

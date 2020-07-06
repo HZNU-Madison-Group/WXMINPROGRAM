@@ -1,0 +1,18 @@
+/* pages/result/result.wxss */
+.test1{
+  color: black;
+  font-size: 68rpx;
+}
+.test2{
+  color: red;
+  font-size: 68rpx;
+}
+.myCenter{
+  text-align: center;
+  line-height: 200rpx
+}
+.myPhoto{
+  margin-left: 300;
+  width: 300;
+  height: 400
+}

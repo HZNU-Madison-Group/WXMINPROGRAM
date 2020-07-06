@@ -1,0 +1,2 @@
+<!--pages/timetable/timetable.wxml-->
+<image src="/pages/image/课表.jpg"class="tp"></image>

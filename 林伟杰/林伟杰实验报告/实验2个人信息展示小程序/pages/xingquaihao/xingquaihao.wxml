@@ -1,0 +1,9 @@
+<!--pages/xingquaihao/xingquaihao.wxml-->
+<view class="container" style="padding:0rpx">
+  <scroll-view scroll-y="true" style="height: 1200rpx;" bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll">
+    <view wx:for="{{dataList}}" wx:key="id">
+      <text >{{item}}</text>
+    </view>
+  </scroll-view>
+
+</view>

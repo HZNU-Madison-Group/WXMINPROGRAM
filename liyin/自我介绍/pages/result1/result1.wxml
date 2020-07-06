@@ -1,0 +1,20 @@
+<!--pages/result1/result1.wxml-->
+
+<view class="container1">
+<image src='{{src}}' class='abc'></image>
+<text>选择你要查询的信息</text>
+
+<view>
+<view class="container2">
+<button id="0" bindtap="click1" >姓名</button>
+<button id="1" bindtap="click1">学校</button>
+</view>
+<view class="container2">
+<button id="2" bindtap="click1">班级</button>
+<button id="3" bindtap="click1">绩点</button>
+</view>
+
+<button id="4" bindtap="click2">课程表</button>
+
+</view>
+</view>

@@ -1,0 +1,33 @@
+<!--pages/friends/friends.wxml-->
+<view>
+<image src="/images/photo1/person1.png" class="person1">
+  </image>
+</view>
+<view class="friends1">
+<view>
+<text>NAME:{{names[0]}}</text>
+</view>
+<view>
+<text>AGE:{{ages[0]}}</text>
+</view>
+<view>
+<text>OCCUPATION:{{occupations[0]}}</text>
+</view>
+</view>
+
+
+<view>
+<image src="/images/photo1/person2.png" class="person1">
+  </image>
+</view>
+<view class="friends2">
+<view>
+<text>NAME:{{names[1]}}</text>
+</view>
+<view>
+<text>AGE:{{ages[1]}}</text>
+</view>
+<view>
+<text>OCCUPATION:{{occupations[1]}}</text>
+</view>
+</view>

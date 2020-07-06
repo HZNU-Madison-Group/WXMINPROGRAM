@@ -1,0 +1,9 @@
+<!--pages/result/result.wxml-->
+<view style='height:150px;'></view>
+
+<view>
+你一共猜了{{count}}次
+</view>
+
+<view style='height:50px;'></view>
+<button type="default" bindtap='backBtn'>返回上一页</button>

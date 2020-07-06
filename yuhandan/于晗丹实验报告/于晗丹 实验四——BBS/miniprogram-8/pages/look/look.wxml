@@ -1,0 +1,18 @@
+<!--pages/initial/initial.wxml-->
+<view wx:for='{{diary}}' >
+  <view  class="image-parent" >
+  <view class="child">
+  <text style="font-size:1rem;color:#0AAAF6" >发帖者：{{item.userid}}</text>
+    <text style="font-size:1rem;color:#0AAAF6" >{{item.problem}}</text>
+    <text style="font-size:0.3rem;color:#0AAAF6;margin-left:15rpx">{{item.createtime}}</text>
+         <view wx:if="{{item.userid==uid}}">
+         <image id='{{item.id}}' bindtap="dl" src="/images/0.png" style="height:60rpx;width:70rpx;margin-right:25rpx;"></image>
+    </view>
+    </view>
+
+
+    </view>
+  
+     <view class="parent"></view>
+</view>
+    

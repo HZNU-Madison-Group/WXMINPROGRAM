@@ -1,0 +1,17 @@
+<!--pages/search/search.wxml-->
+<view wx:for="{{message}}">
+<view class="image-parent">
+<view>ID:{{item.id}}</view>
+<view>Problem:{{item.problem}}</view>
+<view>UserID:{{item.userid}}</view>
+<view>Createtime:{{item.createtime}}</view>
+<view class='btns'>
+ <button bindtap='checkreply' id="{{item.id}}">
+    <view>check</view>
+ </button>
+ <button bindtap='reply' id="{{item.id}}">
+    <view >reply</view>
+ </button>
+</view>
+</view>
+</view>

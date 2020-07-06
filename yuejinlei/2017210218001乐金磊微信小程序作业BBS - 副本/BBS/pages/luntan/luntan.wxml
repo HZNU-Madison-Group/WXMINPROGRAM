@@ -1,0 +1,23 @@
+<!--pages/luntan/luntan.wxml-->
+<view class="container3">
+<view class="container4">
+<image class="images1"src="/images/2.png"></image>
+</view>
+<view class="container1">
+<view class="container2">
+<image class="images" src="/images/tabbar/add.png">
+</image>
+<button class="button" bindtap="click1">写帖</button>
+</view>
+<view class="container2">
+<image class="images" src="/images/tabbar/image.png">
+</image>
+<button class="button" bindtap="click2">查询帖</button>
+</view>
+<view class="container2">
+<image class="images" src="/images/tabbar/cancel.png">
+</image>
+<button class="button" bindtap="click3">删帖</button>
+</view>
+</view>
+</view>

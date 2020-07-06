@@ -1,0 +1,29 @@
+<!--pages/book/book.wxml-->
+<view>
+
+  <button class="button" bindtap="addbookBtnClick">点击扫码入库</button>
+
+  <view class="headline1-1">查询请输入书号</view>
+  <view>
+    <input class="box1-1" bindinput="searchbookstr" />
+  </view>
+  <view>
+    <button class="button" bindtap="searchbookBtnClick">确定</button>
+  </view>
+
+  <view class="headline1-1">查询结果</view>
+  <view>
+    <view wx:for="{{search_result}}" wx:key="x">
+      <view>
+        <view>id:{{item.id}}</view>
+        <view>书号:{{item.isbn}}</view>
+        <view>书名:{{item.bookname}}</view>
+        <view>作者:{{item.bookauthor}}</view>
+        <view>价格:{{item.price}}</view>
+      </view>
+
+
+    </view>
+
+  </view>
+</view>

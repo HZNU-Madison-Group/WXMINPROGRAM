@@ -1,0 +1,4 @@
+<!--pages/tixin/tixin.wxml-->
+<view>您尚未登录，无法访问</view>
+<button class="button" bindtap="userBtnClick">前往登录</button>
+<button class="button" bindtap="indexBtnClick">返回首页</button>

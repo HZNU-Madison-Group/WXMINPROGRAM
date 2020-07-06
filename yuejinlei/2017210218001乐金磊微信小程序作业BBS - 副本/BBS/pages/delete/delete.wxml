@@ -1,0 +1,6 @@
+<!--pages/delete/delete.wxml-->
+<view class="container1">
+<text>输入欲删除的帖子的pid:</text>
+<input bindinput='bindpid'></input>
+<button class="button"  bindtap="clickdelete">点击删除</button>
+</view>

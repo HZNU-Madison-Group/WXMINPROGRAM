@@ -1,0 +1,13 @@
+<!--pages/result/result.wxml-->
+<wxs src="../../wxs/score.wxs" module="tools"/>
+<view>
+  <text class="t3" align-items:center>得分{{tools.score(cnt)}}</text>
+</view>
+<view>
+  <text class="t2" align-items:center>您一共点击了{{cnt}}次猜中了答案！</text>
+</view>
+
+<view>
+  <navigator url="/pages/guess/guess" class='t1'>Play Again</navigator>
+
+</view>

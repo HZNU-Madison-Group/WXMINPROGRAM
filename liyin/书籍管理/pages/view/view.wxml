@@ -1,0 +1,19 @@
+<!--pages/view/view.wxml-->
+<view>
+  <view>请输入isbn:</view>
+  <view>
+    <input style="border:1px solid red" class="weui-input" maxlength="20" bindinput="bindisbn" />
+  </view>
+  <button type="default" style="opacity: {{opacity}};color: white; background-color: #ff8719;" bindtap="clickchaxun"> 点击查询 </button>
+
+  <view wx:for="{{shuji}}" wx:key="x">
+    <view>
+      <text>--------------------------------</text>
+      <view>书名：{{item.bookname}}</view>
+      <view>作者:{{item.bookauthor}} </view>
+      <view>isbn:{{item.isbn}}</view>
+      <view>价格:{{item.price}}</view>
+    </view>
+  </view>
+
+</view>

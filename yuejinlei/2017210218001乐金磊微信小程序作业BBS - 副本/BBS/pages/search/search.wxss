@@ -1,0 +1,19 @@
+/* pages/search/search.wxss */
+.button{
+  background-color: gainsboro;
+  color:red;
+  width: 200rpx;
+}
+.button1{
+  background-color: gainsboro;
+  color:fuchsia;
+  width: 200rpx;
+}
+.button2{
+  background-color: gainsboro;
+  color:red;
+  width: 400rpx;
+}
+.container1{
+  background-color: gainsboro
+}

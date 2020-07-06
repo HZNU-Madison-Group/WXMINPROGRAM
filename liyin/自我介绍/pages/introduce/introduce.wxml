@@ -1,0 +1,5 @@
+<view class='container'>
+
+  <image src='{{src}}' class='abc'></image>
+  <button bindtap="click1">点击获取个人信息</button>
+</view>

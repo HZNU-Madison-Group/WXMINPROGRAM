@@ -1,0 +1,10 @@
+<!--pages/record/record.wxml-->
+
+<view wx:for='{{str}}'>
+<view id='{{item.id}}' class="image-parent" bindtap="clickme">
+<text style="font-size:1rem;" >{{item.sj}}</text>
+<image wx:if='{{item.xq}}' src="/images/mood/{{item.xq}}.png" style="width:100rpx;height:100rpx;margin-left:15rpx"></image>
+<text style="font-size:1rem;;margin-left:15rpx">{{item.nr}}</text>
+</view>
+</view>
+

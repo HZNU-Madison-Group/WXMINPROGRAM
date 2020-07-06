@@ -1,0 +1,9 @@
+<view>
+  <view>
+    <image src="/images/user.jpg"  style="width:80px; height:80px; border-radius:50%; overflow:hidden;"></image>
+  </view>
+  <view>
+    <text class="t2">用户"{{username}}"登录成功</text>
+  </view>
+
+</view>

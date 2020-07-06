@@ -1,0 +1,50 @@
+/* pages/photo/photo.wxss */
+.slide-image{
+  width: 50cm
+}
+.Travel{
+  font-size: 20px;
+  position: relative;
+  text-align: center;
+  color: #57909c
+  }
+  .food{
+    height: 150px;
+    width:150px;
+    font-size: 20px;
+  position: absolute;
+  left:0cm;
+  top:200px;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  color: #57909c
+  }
+  .animal{
+    height: 150px;
+    width:150px;
+    font-size: 20px;
+  position: absolute;
+  left:4.5cm;
+  top:200px;
+  right: 0;
+  bottom: 0;
+  text-align: right;
+  color: #57909c
+  }
+.Food{
+  font-size: 20px;
+  position: relative;
+  top:170px;
+  left:1.5cm;
+  text-align: left;
+  color: #57909c
+}
+.Animal{
+  font-size: 20px;
+  position: relative;
+  top:142px;
+  right:1.5cm;
+  text-align: right;
+  color: #57909c
+}

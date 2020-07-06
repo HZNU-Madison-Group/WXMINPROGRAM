@@ -1,0 +1,31 @@
+<!--pages/login/login.wxml-->
+<view >
+  <view >
+  </view>
+
+  <view >
+    <view >
+      <view >用户名</view>
+      <view><input bindinput="usernameInput" /></view>
+    </view>
+    <view >
+      <view >密码</view>
+      <view >
+
+      <input style="flex-grow:1" password="true" bindinput="passwordInput"></input>
+      <text>忘记密码</text>
+      
+      </view>   
+    </view>
+    <view >
+      <button  bindtap="loginBtnClick">登录</button>
+    </view>
+  </view>
+  
+  <view>
+    <view>没有账户？<text>注册</text></view>
+    <view >    
+    </view>
+  </view>
+
+</view>

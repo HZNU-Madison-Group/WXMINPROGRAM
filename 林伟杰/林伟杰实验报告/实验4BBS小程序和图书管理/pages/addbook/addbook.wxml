@@ -1,0 +1,19 @@
+<!--pages/addbook/addbook.wxml-->
+<view class="head">入库信息更改</view>
+<view>默认信息如下</view>
+<view>
+<text>书号：{{isbn}}\n</text>
+<text>书名：{{name}}\n</text>
+<text>作者：{{author}}\n</text>
+<text>价格：{{price}}\n</text>
+<view>----------------------------------</view>
+
+
+</view>
+<view>
+  <text>更改价格</text>
+  <input class="box1-1" bindinput="price" />
+</view>
+  <view>
+    <button class="button" bindtap="confirm">确定</button>
+</view>

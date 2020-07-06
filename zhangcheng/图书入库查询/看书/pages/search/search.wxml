@@ -1,0 +1,10 @@
+<!--pages/search/search.wxml-->
+<view class="parent">
+    <label class="loginLab">ISBN</label>
+    <input bindinput="isbn" style="border:1px solid gray" maxlength="100" placeholder="请输入ISBN码"/>
+</view>
+<view class="parent"></view>
+<view>
+  <button bindtap="result">搜索</button>
+</view>
+

@@ -1,0 +1,28 @@
+/* pages/info/info.wxss */
+.title {
+  margin: 10rpx;
+  color:rgb(255, 0, 0);
+  font-size:20px;
+  margin-left:125px;
+  margin-top:100px;
+}
+.result{
+  color:black;
+  font-size:20px;
+  margin-left:50px
+}
+.value{
+  color:blue;
+   margin-left:30px
+}
+.value2{
+  color:blue;
+   margin-left:60px
+}
+.pic{
+  width: 660rpx;
+  height: 500rpx;
+  margin:14rpx;
+  border-radius: 5%;
+  margin-left:20px
+}

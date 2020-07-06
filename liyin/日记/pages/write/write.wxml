@@ -1,0 +1,25 @@
+<!--pages/result/result.wxml-->
+<view class='hhh'>
+  <view class="page-section">
+    <view class="weui-cells__title">id</view>
+    <view>
+      <input style="border:1px solid red" class="weui-input" maxlength="10" bindinput="bindauthorid" />
+    </view>
+    <view class="weui-cells__title">内容</view>
+
+    <view>
+      <textarea bindinput="bindnr" maxlength="1000">
+      </textarea>
+    </view>
+
+
+    <view class="weui-cells__title">心情</view>
+    <view>
+      <input nr="true" style="border:1px solid blue" class="weui-input" maxlength="10" bindinput="bindxq" />
+    </view>
+    <view style='height:20px;'></view>
+    <button type="default" bindtap="clickwrite"> 写日记 </button>
+    <view style='height:30px;'></view>
+    <button type="default" bindtap="chaxun"> 去查询日记 </button>
+  </view>
+</view>

@@ -1,0 +1,15 @@
+/* pages/login/login.wxss */
+.headline {
+  color: #505050;
+}
+
+.box {
+  border-style: solid;
+  color: #e8e8e8;
+}
+
+.button {
+  width: 90%;
+  margin-top: 30rpx;
+  color: #505050;
+}

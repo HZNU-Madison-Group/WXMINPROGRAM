@@ -1,0 +1,19 @@
+<!--pages/result/result.wxml-->
+
+<view class="page-section">
+  <view class="weui-cells__title">在这里注册或登录</view>
+  <view >username</view>
+  <view>
+    <input style="border:1px solid red" class="weui-input" maxlength="10" bindinput="bindusername" />
+  </view>
+  <view >password</view>
+  <view>
+    <input password="true" style="border:1px solid red"   class="weui-input" maxlength="10" bindinput="bindpassword" />
+  </view>
+<button type="default"   bindtap="clicktoreg" > 注册 </button>
+<button type="default"   bindtap="clicklogin" > 登录 </button>
+</view>
+  <view  >  
+    <image src="/images/changyong/123.jpeg" >
+    </image>
+  </view>

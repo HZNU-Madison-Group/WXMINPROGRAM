@@ -1,0 +1,16 @@
+<!--pages/read/read.wxml-->
+<view class='ServiceCenter'>
+
+  <view class='item'>
+    <text class="left">作者</text>
+    <input style="border:1px solid red" class="weui-input" maxlength="10" bindinput="bindauthorid" />
+  </view>
+
+
+  <view class='item'>
+    <text class="left">编号</text>
+    <input style="border:1px solid red" class="weui-input" maxlength="10" bindinput="bindxq" />
+  </view>
+
+  <button bindtap="newBtnDown">查看</button>
+</view>

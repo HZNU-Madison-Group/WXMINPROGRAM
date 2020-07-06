@@ -1,0 +1,26 @@
+<!--pages/Login/Login.wxml-->
+<!--pages/result/result.wxml-->
+<view class="main">
+<text class="title">BBS用户登录界面\n</text>
+  </view>
+<view >
+<view class="text" >用户名称:</view>
+  <view class="main">
+    <input style="border:1px solid grey" class="input1" maxlength="10" bindinput="bindusername" placeholder="请输入用户名称" />
+  </view>
+<text>\n</text>
+  <view class="text">密码:</view>
+  <view class="main">
+    <input password="true" style="border:1px solid grey" class="input1" maxlength="10" bindinput="bindpassword" placeholder="请输入密码"/>
+  </view >
+  <view class="main">
+  <text>\n</text>
+<button  class="button" bindtap="clickToRegister" >注册 </button>
+<button class="button" bindtap="clickToLogin" > 登录</button>
+
+</view>
+<text>\n</text>
+<view class="main">
+<text class="text2">初次使用的用户请在输入用户名称与密码后点击注册</text>
+</view>
+</view>

@@ -1,0 +1,29 @@
+<!--pages/Guess/GuessGame.wxml-->
+<view>
+<view>
+<text class="text1">Try to Guess the Number!</text>
+</view>
+<view>
+<text class="text2">Click one number!</text>
+</view>
+<view>
+<text class="text2">
+                                                                    
+</text>
+</view>
+<view>
+<image id="1" bindtap="click"  src="/images/{{color[1]}}/shuzi1.png" class="number"> </image>
+<image id="2" bindtap="click"  src="/images/{{color[2]}}/shuzi2.png" class="number"> </image>
+<image id="3" bindtap="click"  src="/images/{{color[3]}}/shuzi3.png" class="number"> </image>
+<image id="4" bindtap="click"  src="/images/{{color[4]}}/shuzi4.png" class="number"> </image>
+<image id="5" bindtap="click"  src="/images/{{color[5]}}/shuzi5.png" class="number"> </image>
+<image id="6" bindtap="click"  src="/images/{{color[6]}}/shuzi6.png" class="number"> </image>
+<image id="7" bindtap="click"  src="/images/{{color[7]}}/shuzi7.png" class="number"> </image>
+<image id="8" bindtap="click"  src="/images/{{color[8]}}/shuzi8.png" class="number"> </image>
+<image id="9" bindtap="click"  src="/images/{{color[9]}}/shuzi9.png" class="number"> </image>
+<image  class="number"> </image>
+<image id="0" bindtap="click"  src="/images/{{color[0]}}/shuzi0.png" class="number"> </image>
+<image  class="number"> </image>
+</view>
+</view>
+

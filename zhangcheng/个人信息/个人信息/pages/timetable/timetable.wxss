@@ -1,0 +1,5 @@
+/* pages/timetable/timetable.wxss */
+.tp{
+  width:750rpx;
+  height:1000rpx;
+}

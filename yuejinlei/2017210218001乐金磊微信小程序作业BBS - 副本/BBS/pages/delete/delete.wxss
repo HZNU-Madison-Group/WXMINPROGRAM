@@ -1,0 +1,18 @@
+/* pages/delete/delete.wxss */
+.container1{
+  height: 100vh;
+  background-color: gainsboro;
+}
+
+
+
+
+
+
+.button{
+  font-size: 30rpx;
+  width: 120rpx;
+  background-color: gainsboro;
+  color:red
+
+}

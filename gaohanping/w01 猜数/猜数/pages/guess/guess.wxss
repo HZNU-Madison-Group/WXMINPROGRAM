@@ -1,0 +1,38 @@
+/* pages/guess/guess.wxss */
+
+.t1 {
+  color: #f40;
+  font-size: 20px;
+}
+
+.t2 {
+  color: rgb(9, 255, 0);
+  font-size: 20px;
+}
+
+.tp {
+  width: 210rpx;
+  height: 210rpx;
+  border: 1px solid rgb(39, 33, 30);
+  background-color: rgba(0, 195, 209, 0.507);
+  border-radius: 15%;
+  margin: 5rpx;
+  font-size: 30px;
+}
+
+.title {
+  height: 200rpx;
+  line-height: 200rpx;
+  display: block;
+  font-size: 50px;
+}
+
+.display {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  padding: 100rpx 0;
+  box-sizing: border-box;
+}

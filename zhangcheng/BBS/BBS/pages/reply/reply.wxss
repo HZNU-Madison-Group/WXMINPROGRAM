@@ -1,0 +1,10 @@
+/* pages/reply/reply.wxss */
+.font-break {
+  word-break:break-all;
+}
+.button_style{
+  background-color: rgb(255, 255, 255);
+  width:60%;
+  height:120rpx;
+  margin-top:400rpx
+}

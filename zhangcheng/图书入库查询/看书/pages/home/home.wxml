@@ -1,0 +1,12 @@
+<!--pages/home/home.wxml-->
+<!--write-->
+    <view class="image-parent" bindtap="saoma">
+      <image src="/pages/image/saoma.png" class="tp"></image>
+      <text style="font-size:1.5rem;">扫码添加</text>
+    </view>
+<!--search-->
+      <view class="image-parent" bindtap="search">
+        <image src="/pages/image/search.png" class="tp"></image>
+        <text style="font-size:1.5rem;">图书查询</text>
+      </view>
+

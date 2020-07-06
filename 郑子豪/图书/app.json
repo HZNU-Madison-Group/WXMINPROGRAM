@@ -1,0 +1,13 @@
+{
+  "pages": [
+    "pages/book/book"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#bba",
+    "navigationBarTitleText": "图书检索",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

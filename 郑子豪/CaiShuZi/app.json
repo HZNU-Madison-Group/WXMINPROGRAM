@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/GuessGame/GuessGame",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/Result/Result"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}
